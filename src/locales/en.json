@@ -14,13 +14,18 @@
   "Index": {
     "meta_title": "Template for your Project",
     "meta_description": "Freelance web developers in South Florida",
-    "heading": "A Freelance Software Development Firm",
-    "hero_image_url": "https://storage.googleapis.com/dinan/dinanweb/med4.png",
-    "paragraph_one": "Innovative Web Solutions, Exceptional Expertise",
+    "heading": "Freelance Software Development",
+    "heading_two": "Design",
+    "heading_three": "Development",
+    "paragraph_one": "Innovative Solutions, Exceptional Expertise",
     "paragraph_two": "ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
     "paragraph_three": "ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do enim ad minim veniam",
     "paragraph_four": "ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Ut enim ad minim veniam",
-    "label": "Introducing",
+    "paragraph_five": "ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Ut enim ad minim veniam",
+    "paragraph_six": "ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Ut enim ad minim veniam",
+    "cta": "Contact Us",
+    "label": "content Label",
+    "hero_image_url": "https://storage.googleapis.com/dinan/dinanweb/med4.png",
     "imageUrl": "https://storage.googleapis.com/dinan/dinanweb/med1.png",
     "backgroundUrl": "https://storage.googleapis.com/dinan/dinanweb/lrg1.png"
   },
@@ -39,12 +44,14 @@
     "slide1": "Welcome to our site!",
     "slide2": "Experience the best",
     "slide3": "Join us today",
-    "slide4": "Contact us for more"
+    "slide4": "Contact us for more",
+    "cta": "Contact Us",
+    "label": "content Label"
   },
   "About": {
     "meta_title": "About",
     "meta_description": "About page description",
-    "heading": "Innovation",
+    "heading": "Heading",
     "heading_two": "Design",
     "heading_three": "Development",
     "splash_heading": "About DinanDev and DinanWeb",
@@ -54,8 +61,11 @@
     "paragraph_four": "We build robust and scalable applications using the latest technologies and best practices.",
     "paragraph_five": "ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Ut enim ad minim veniam",
     "paragraph_six": "ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Ut enim ad minim veniam",
-    "imageUrl": "https://storage.googleapis.com/dinan/dinanweb/med1.png",
-    "backgroundUrl": "https://storage.googleapis.com/dinan/dinanweb/lrg1.png"
+    "cta": "Contact Us",
+    "label": "content Label",
+    "hero_image_url": "#",
+    "imageUrl": "#",
+    "backgroundUrl": "#"
   },
   "Portfolio": {
     "meta_title": "Portfolio",
@@ -69,8 +79,11 @@
     "paragraph_four": "ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Ut enim ad minim veniam",
     "paragraph_five": "ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Ut enim ad minim veniam.",
     "paragraph_six": "ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Ut enim ad minim veniam",
-    "imageUrl": "https://storage.googleapis.com/dinan/dinanweb/med1.png",
-    "backgroundUrl": "https://storage.googleapis.com/dinan/dinanweb/lrg1.png"
+    "cta": "Contact Us",
+    "label": "content Label",
+    "hero_image_url": "#",
+    "imageUrl": "#",
+    "backgroundUrl": "#"
   },
   "PortfolioSlug": {
     "meta_title": "Portfolio {slug}",
@@ -83,6 +96,9 @@
     "paragraph_two": "ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
     "paragraph_three": "ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do enim ad minim veniam",
     "paragraph_four": "ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Ut enim ad minim veniam",
+    "cta": "Contact Us",
+    "label": "content Label",
+    "hero_image_url": "#",
     "imageUrl": "#",
     "backgroundUrl": "#"
   },
