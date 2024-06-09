@@ -1,7 +1,10 @@
 {
   "BaseTemplate": {
     "description": "BaseTemplate",
-    "made_with": "Made with"
+    "made_with": "Made with",
+    "imageUrl": "#",
+    "backgroundImageUrl": "#",
+    "backgroundVideoUrl": "#"
   },
   "RootLayout": {
     "home_link": "Home",
