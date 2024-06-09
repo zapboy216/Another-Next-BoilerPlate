@@ -46,7 +46,7 @@ export default function Layout(props: { children: React.ReactNode }) {
               className="block cursor-pointer px-6 py-3 text-gray-700 transition-colors hover:text-gray-900"
               href="#"
             >
-              GitHub
+              {t('github_link')}
             </a>
           </li>
         </>

@@ -1,52 +1,34 @@
 {
+  "BaseTemplate": {
+    "description": "BaseTemplate",
+    "made_with": "Made with"
+  },
   "RootLayout": {
     "home_link": "Home",
     "about_link": "About",
     "guestbook_link": "Guestbook",
     "portfolio_link": "Portfolio",
+    "github_link": "GitHub",
     "sign_in_link": "Sign in",
     "sign_up_link": "Sign up"
   },
-  "BaseTemplate": {
-    "description": "Web Development",
-    "made_with": "Made with"
-  },
   "Index": {
     "meta_title": "Template for your Project",
-    "meta_description": "Freelance web developers in South Florida",
-    "heading": "Freelance Software Development",
-    "heading_two": "Design",
-    "heading_three": "Development",
+    "meta_description": "Freelance developers",
+    "heading": "Home Heading",
+    "heading_two": "Home Heading Two",
+    "heading_three": "Home Heading Three",
     "paragraph_one": "Innovative Solutions, Exceptional Expertise",
-    "paragraph_two": "ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+    "paragraph_two": "ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod . Ut minim veniam",
     "paragraph_three": "ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do enim ad minim veniam",
     "paragraph_four": "ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Ut enim ad minim veniam",
     "paragraph_five": "ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Ut enim ad minim veniam",
     "paragraph_six": "ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Ut enim ad minim veniam",
-    "cta": "Contact Us",
+    "cta": "Contact Us cta",
     "label": "content Label",
     "hero_image_url": "#",
     "imageUrl": "#",
     "backgroundUrl": "#"
-  },
-  "Guestbook": {
-    "meta_title": "Guestbook",
-    "meta_description": "An example of CRUD operation",
-    "database_powered_by": "Database powered by",
-    "loading_guestbook": "Loading guestbook..."
-  },
-  "GuestbookForm": {
-    "username": "Username",
-    "body": "Body",
-    "save": "Save"
-  },
-  "Carousel": {
-    "slide1": "Welcome to our site!",
-    "slide2": "Experience the best",
-    "slide3": "Join us today",
-    "slide4": "Contact us for more",
-    "cta": "Contact Us",
-    "label": "content Label"
   },
   "About": {
     "meta_title": "About",
@@ -102,6 +84,17 @@
     "imageUrl": "#",
     "backgroundUrl": "#"
   },
+  "Carousel": {
+    "slide1": "Welcome to our site!",
+    "slide2": "Experience the best",
+    "slide3": "Join us today",
+    "slide4": "Contact us for more",
+    "cta": "Contact Us cta",
+    "label": "content Label",
+    "hero_image_url": "#",
+    "imageUrl": "#",
+    "backgroundUrl": "#"
+  },
   "SignIn": {
     "meta_title": "Sign in",
     "meta_description": "Seamlessly sign in to your account with our user-friendly login process."
@@ -121,5 +114,16 @@
     "dashboard_link": "Dashboard",
     "user_profile_link": "Manage your account",
     "sign_out": "Sign out"
+  },
+  "Guestbook": {
+    "meta_title": "Guestbook",
+    "meta_description": "An example of CRUD operation",
+    "database_powered_by": "Database powered by",
+    "loading_guestbook": "Loading guestbook..."
+  },
+  "GuestbookForm": {
+    "username": "Username",
+    "body": "Body",
+    "save": "Save"
   }
 }
