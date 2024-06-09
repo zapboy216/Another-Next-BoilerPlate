@@ -3,6 +3,8 @@
     "description": "BaseTemplate",
     "made_with": "Made with",
     "imageUrl": "#",
+    "imageUrlAlt": "alt",
+    "backgroundImageUrlAlt": "alt",
     "backgroundImageUrl": "#",
     "backgroundVideoUrl": "#"
   },
@@ -17,6 +19,8 @@
     "sign_up_link": "Sign up",
     "logo_image_url": "#",
     "imageUrl": "#",
+    "imageUrlAlt": "alt",
+    "backgroundImageUrlAlt": "alt",
     "backgroundImageUrl": "#",
     "backgroundVideoUrl": "#"
   },
@@ -58,6 +62,8 @@
     "hero_image_url": "#",
     "imageUrl": "#",
     "backgroundImageUrl": "#",
+    "imageUrlAlt": "alt",
+    "backgroundImageUrlAlt": "alt",
     "backgroundVideoUrl": "#"
   },
   "Portfolio": {
@@ -79,6 +85,8 @@
     "hero_image_url": "#",
     "imageUrl": "#",
     "backgroundImageUrl": "#",
+    "imageUrlAlt": "alt",
+    "backgroundImageUrlAlt": "alt",
     "backgroundVideoUrl": "#",
     "log_management_powered_by": "Log management powered by"
   },
@@ -99,6 +107,8 @@
     "label": "label content",
     "hero_image_url": "#",
     "imageUrl": "#",
+    "imageUrlAlt": "alt",
+    "backgroundImageUrlAlt": "alt",
     "backgroundImageUrl": "#",
     "backgroundVideoUrl": "#",
     "error_reporting_powered_by": "Error reporting powered by",
@@ -121,6 +131,8 @@
     "label": "label content Label",
     "hero_image_url": "#",
     "imageUrl": "#",
+    "imageUrlAlt": "alt",
+    "backgroundImageUrlAlt": "alt",
     "backgroundImageUrl": "#",
     "backgroundVideoUrl": "#"
   },
@@ -133,6 +145,8 @@
     "label": "label content Label",
     "hero_image_url": "#",
     "imageUrl": "#",
+    "imageUrlAlt": "alt",
+    "backgroundImageUrlAlt": "alt",
     "backgroundUrl": "#",
     "backgroundVideoUrl": "#"
   },
