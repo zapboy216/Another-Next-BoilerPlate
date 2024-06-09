@@ -1,3 +1,5 @@
+// Layout.tsx
+
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 
@@ -11,42 +13,38 @@ export default function Layout(props: { children: React.ReactNode }) {
     <BaseTemplate
       leftNav={
         <>
-          <li>
-            <Link
-              href="/"
-              className="border-none text-gray-700 hover:text-gray-900"
-            >
-              {t('home_link')}
+          <li className="rounded-md bg-white shadow-lg hover:bg-gray-100">
+            <Link href="/">
+              <span className="block cursor-pointer px-6 py-3 text-gray-700 transition-colors hover:text-gray-900">
+                {t('home_link')}
+              </span>
             </Link>
           </li>
-          <li>
-            <Link
-              href="/about/"
-              className="border-none text-gray-700 hover:text-gray-900"
-            >
-              {t('about_link')}
+          <li className="rounded-md bg-white shadow-lg hover:bg-gray-100">
+            <Link href="/about/">
+              <span className="block cursor-pointer px-6 py-3 text-gray-700 transition-colors hover:text-gray-900">
+                {t('about_link')}
+              </span>
             </Link>
           </li>
-          <li>
-            <Link
-              href="/guestbook/"
-              className="border-none text-gray-700 hover:text-gray-900"
-            >
-              {t('guestbook_link')}
+          <li className="rounded-md bg-white shadow-lg hover:bg-gray-100">
+            <Link href="/guestbook/">
+              <span className="block cursor-pointer px-6 py-3 text-gray-700 transition-colors hover:text-gray-900">
+                {t('guestbook_link')}
+              </span>
             </Link>
           </li>
-          <li>
-            <Link
-              href="/portfolio/"
-              className="border-none text-gray-700 hover:text-gray-900"
-            >
-              {t('portfolio_link')}
+          <li className="rounded-md bg-white shadow-lg hover:bg-gray-100">
+            <Link href="/portfolio/">
+              <span className="block cursor-pointer px-6 py-3 text-gray-700 transition-colors hover:text-gray-900">
+                {t('portfolio_link')}
+              </span>
             </Link>
           </li>
-          <li>
+          <li className="rounded-md bg-white shadow-lg hover:bg-gray-100">
             <a
-              className="border-none text-gray-700 hover:text-gray-900"
-              href="https://github.com/ixartz/Next-js-Boilerplate"
+              className="block cursor-pointer px-6 py-3 text-gray-700 transition-colors hover:text-gray-900"
+              href="#"
             >
               GitHub
             </a>
@@ -55,25 +53,23 @@ export default function Layout(props: { children: React.ReactNode }) {
       }
       rightNav={
         <>
-          <li>
-            <Link
-              href="/sign-in/"
-              className="border-none text-gray-700 hover:text-gray-900"
-            >
-              {t('sign_in_link')}
+          <li className="rounded-md bg-white shadow-lg hover:bg-gray-100">
+            <Link href="/sign-in/">
+              <span className="block cursor-pointer px-6 py-3 text-gray-700 transition-colors hover:text-gray-900">
+                {t('sign_in_link')}
+              </span>
             </Link>
           </li>
 
-          <li>
-            <Link
-              href="/sign-up/"
-              className="border-none text-gray-700 hover:text-gray-900"
-            >
-              {t('sign_up_link')}
+          <li className="rounded-md bg-white shadow-lg hover:bg-gray-100">
+            <Link href="/sign-up/">
+              <span className="block cursor-pointer px-6 py-3 text-gray-700 transition-colors hover:text-gray-900">
+                {t('sign_up_link')}
+              </span>
             </Link>
           </li>
 
-          <li>
+          <li className="rounded-md bg-white shadow-lg hover:bg-gray-100">
             <LocaleSwitcher />
           </li>
         </>
