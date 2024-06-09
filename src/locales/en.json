@@ -17,7 +17,7 @@
     "contact_link": "Contact",
     "sign_in_link": "Sign in",
     "sign_up_link": "Sign up",
-    "logo_image_url": "#",
+    "logo_image_url": "https://storage.googleapis.com/dinan/vercel-next-boilerplate/logoipsum-236.svg",
     "imageUrl": "#",
     "imageUrlAlt": "alt",
     "backgroundImageUrlAlt": "alt",
