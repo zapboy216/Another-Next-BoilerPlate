@@ -10,7 +10,8 @@
     "portfolio_link": "Portfolio",
     "github_link": "GitHub",
     "sign_in_link": "Sign in",
-    "sign_up_link": "Sign up"
+    "sign_up_link": "Sign up",
+    "contact_link": "Contact"
   },
   "Index": {
     "meta_title": "Template for your Project",
@@ -52,8 +53,11 @@
   "Portfolio": {
     "meta_title": "Portfolio",
     "meta_description": "Welcome to my portfolio page",
-    "presentation": "Welcome to my portfolio page! Here you will find a carefully curated collection of my work and accomplishments. Through this portfolio, I'm to showcase my expertise, creativity, and the value I can bring to your projects.",
     "portfolio_name": "Portfolio {name}",
+    "heading": "Heading",
+    "heading_two": "Design",
+    "heading_three": "Development",
+    "splash_heading": "Contact DinanDev and DinanWeb",
     "log_management_powered_by": "Log management powered by",
     "paragraph_one": "ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Ut enim ad minim veniam",
     "paragraph_two": "ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
@@ -78,6 +82,25 @@
     "paragraph_two": "ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
     "paragraph_three": "ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do enim ad minim veniam",
     "paragraph_four": "ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Ut enim ad minim veniam",
+    "cta": "Contact Us",
+    "label": "content Label",
+    "hero_image_url": "#",
+    "imageUrl": "#",
+    "backgroundUrl": "#"
+  },
+  "Contact": {
+    "meta_title": "Contact",
+    "meta_description": "Contact page description",
+    "heading": "Heading",
+    "heading_two": "Design",
+    "heading_three": "Development",
+    "splash_heading": "About DinanDev and DinanWeb",
+    "paragraph_one": "ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Ut enim ad minim veniam",
+    "paragraph_two": "ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Ut enim ad minim veniam",
+    "paragraph_three": "ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Ut enim ad minim veniam",
+    "paragraph_four": "We build robust and scalable applications using the latest technologies and best practices.",
+    "paragraph_five": "ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Ut enim ad minim veniam",
+    "paragraph_six": "ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Ut enim ad minim veniam",
     "cta": "Contact Us",
     "label": "content Label",
     "hero_image_url": "#",
