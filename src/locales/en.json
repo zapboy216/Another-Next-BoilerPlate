@@ -1,6 +1,6 @@
 {
   "BaseTemplate": {
-    "description": "BaseTemplate",
+    "description": "Vercel Next the Dinan BaseTemplate",
     "made_with": "Made with",
     "imageUrl": "#",
     "imageUrlAlt": "alt",
@@ -25,7 +25,7 @@
     "backgroundVideoUrl": "#"
   },
   "Index": {
-    "meta_title": "Starter Template for your Project",
+    "meta_title": "Starter Vercel Template for your Project",
     "meta_description": "for Freelance developers",
     "heading_one": "heading_one Index",
     "heading_two": "heading_two Index",
@@ -42,8 +42,8 @@
     "hero_image_url": "#",
     "imageUrl": "#",
     "imageUrlAlt": "alt",
-    "backgroundImageUrlAlt": "alt",
     "backgroundImageUrl": "#",
+    "backgroundImageUrlAlt": "alt",
     "backgroundVideoUrl": "#"
   },
   "About": {
@@ -63,8 +63,8 @@
     "label": "label content",
     "hero_image_url": "#",
     "imageUrl": "#",
-    "backgroundImageUrl": "#",
     "imageUrlAlt": "alt",
+    "backgroundImageUrl": "#",
     "backgroundImageUrlAlt": "alt",
     "backgroundVideoUrl": "#"
   },
@@ -86,8 +86,8 @@
     "label": "content Label",
     "hero_image_url": "#",
     "imageUrl": "#",
-    "backgroundImageUrl": "#",
     "imageUrlAlt": "alt",
+    "backgroundImageUrl": "#",
     "backgroundImageUrlAlt": "alt",
     "backgroundVideoUrl": "#",
     "log_management_powered_by": "Log management powered by"
@@ -110,8 +110,8 @@
     "hero_image_url": "#",
     "imageUrl": "#",
     "imageUrlAlt": "alt",
-    "backgroundImageUrlAlt": "alt",
     "backgroundImageUrl": "#",
+    "backgroundImageUrlAlt": "alt",
     "backgroundVideoUrl": "#",
     "error_reporting_powered_by": "Error reporting powered by",
     "coverage_powered_by": "Code coverage powered by"
@@ -134,8 +134,8 @@
     "hero_image_url": "#",
     "imageUrl": "#",
     "imageUrlAlt": "alt",
-    "backgroundImageUrlAlt": "alt",
     "backgroundImageUrl": "#",
+    "backgroundImageUrlAlt": "alt",
     "backgroundVideoUrl": "#"
   },
   "Carousel": {
@@ -148,8 +148,8 @@
     "hero_image_url": "#",
     "imageUrl": "#",
     "imageUrlAlt": "alt",
-    "backgroundImageUrlAlt": "alt",
     "backgroundImageUrl": "#",
+    "backgroundImageUrlAlt": "alt",
     "backgroundVideoUrl": "#"
   },
   "SignIn": {
