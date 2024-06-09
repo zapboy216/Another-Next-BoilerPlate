@@ -11,7 +11,11 @@
     "github_link": "GitHub",
     "contact_link": "Contact",
     "sign_in_link": "Sign in",
-    "sign_up_link": "Sign up"
+    "sign_up_link": "Sign up",
+    "logo_image_url": "#",
+    "imageUrl": "#",
+    "backgroundImageUrl": "#",
+    "backgroundVideoUrl": "#"
   },
   "Index": {
     "meta_title": "Starter Template for your Project",
@@ -30,7 +34,8 @@
     "label": "content Label",
     "hero_image_url": "#",
     "imageUrl": "#",
-    "backgroundUrl": "#"
+    "backgroundImageUrl": "#",
+    "backgroundVideoUrl": "#"
   },
   "About": {
     "meta_title": "About",
@@ -49,7 +54,8 @@
     "label": "label content",
     "hero_image_url": "#",
     "imageUrl": "#",
-    "backgroundUrl": "#"
+    "backgroundImageUrl": "#",
+    "backgroundVideoUrl": "#"
   },
   "Portfolio": {
     "meta_title": "Portfolio",
@@ -69,7 +75,8 @@
     "label": "content Label",
     "hero_image_url": "#",
     "imageUrl": "#",
-    "backgroundUrl": "#",
+    "backgroundImageUrl": "#",
+    "backgroundVideoUrl": "#",
     "log_management_powered_by": "Log management powered by"
   },
   "PortfolioSlug": {
@@ -89,7 +96,8 @@
     "label": "label content",
     "hero_image_url": "#",
     "imageUrl": "#",
-    "backgroundUrl": "#",
+    "backgroundImageUrl": "#",
+    "backgroundVideoUrl": "#",
     "error_reporting_powered_by": "Error reporting powered by",
     "coverage_powered_by": "Code coverage powered by"
   },
@@ -110,7 +118,8 @@
     "label": "label content Label",
     "hero_image_url": "#",
     "imageUrl": "#",
-    "backgroundUrl": "#"
+    "backgroundImageUrl": "#",
+    "backgroundVideoUrl": "#"
   },
   "Carousel": {
     "slide1": "slide1 Welcome to our site!",
@@ -121,7 +130,8 @@
     "label": "label content Label",
     "hero_image_url": "#",
     "imageUrl": "#",
-    "backgroundUrl": "#"
+    "backgroundUrl": "#",
+    "backgroundVideoUrl": "#"
   },
   "SignIn": {
     "meta_title": "Sign in",
