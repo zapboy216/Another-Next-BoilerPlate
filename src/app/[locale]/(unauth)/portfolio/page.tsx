@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
@@ -30,13 +31,14 @@ const Portfolio = () => {
           </Link>
         ))}
       </div>
-
-      <h1>{t('heading')}</h1>
+      <h1>{t('splash_heading')}</h1>
+      <h1>{t('heading_one')}</h1>
       <h2>{t('heading_two')}</h2>
       <p>{t('paragraph_one')}</p>
       <p>{t('paragraph_two')}</p>
       <p>{t('paragraph_three')}</p>
       {t('cta')}
+      <Image src={t('imageUrl')} alt={t('imageAlt')} width="300" height="300" />
     </>
   );
 };
