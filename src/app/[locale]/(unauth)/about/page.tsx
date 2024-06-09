@@ -18,7 +18,7 @@ export default function About() {
 
   return (
     <>
-      <h1>{t('heading')}</h1>
+      <h1>{t('heading_one')}</h1>
       <h2>{t('heading_two')}</h2>
       <p>{t('paragraph_one')}</p>
       <p>{t('paragraph_two')}</p>
