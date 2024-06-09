@@ -49,10 +49,6 @@ export default function Layout(props: { children: React.ReactNode }) {
               {t('github_link')}
             </a>
           </li>
-        </>
-      }
-      rightNav={
-        <>
           <li className="rounded-md bg-white shadow-lg hover:bg-gray-100">
             <Link href="/contact/">
               <span className="block cursor-pointer px-6 py-3 text-gray-700 transition-colors hover:text-gray-900">
@@ -60,6 +56,10 @@ export default function Layout(props: { children: React.ReactNode }) {
               </span>
             </Link>
           </li>
+        </>
+      }
+      rightNav={
+        <>
           <li className="rounded-md bg-white shadow-lg hover:bg-gray-100">
             <Link href="/sign-in/">
               <span className="block cursor-pointer px-6 py-3 text-gray-700 transition-colors hover:text-gray-900">

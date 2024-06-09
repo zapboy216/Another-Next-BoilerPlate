@@ -41,6 +41,8 @@
     "label": "content Label",
     "hero_image_url": "#",
     "imageUrl": "#",
+    "imageUrlAlt": "alt",
+    "backgroundImageUrlAlt": "alt",
     "backgroundImageUrl": "#",
     "backgroundVideoUrl": "#"
   },
