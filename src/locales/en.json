@@ -25,9 +25,9 @@
     "paragraph_six": "ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Ut enim ad minim veniam",
     "cta": "Contact Us",
     "label": "content Label",
-    "hero_image_url": "https://storage.googleapis.com/dinan/dinanweb/med4.png",
-    "imageUrl": "https://storage.googleapis.com/dinan/dinanweb/med1.png",
-    "backgroundUrl": "https://storage.googleapis.com/dinan/dinanweb/lrg1.png"
+    "hero_image_url": "#",
+    "imageUrl": "#",
+    "backgroundUrl": "#"
   },
   "Guestbook": {
     "meta_title": "Guestbook",
