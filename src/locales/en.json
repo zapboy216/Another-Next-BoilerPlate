@@ -59,7 +59,6 @@
     "heading_two": "heading_two Portfolio Design",
     "heading_three": "heading_three Portfolio Development",
     "splash_heading": "splash_heading Portfolio DinanDev and DinanWeb",
-    "log_management_powered_by": "Log management powered by",
     "paragraph_one": "paragraph_one Portfolio ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Ut enim ad minim veniam",
     "paragraph_two": "paragraph_two Portfolio ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor  Ut enim ad minim veniam",
     "paragraph_three": "paragraph_three Portfolio ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do enim ad minim veniam",
@@ -70,7 +69,8 @@
     "label": "content Label",
     "hero_image_url": "#",
     "imageUrl": "#",
-    "backgroundUrl": "#"
+    "backgroundUrl": "#",
+    "log_management_powered_by": "Log management powered by"
   },
   "PortfolioSlug": {
     "meta_title": "Portfolio {slug}",
@@ -79,8 +79,6 @@
     "heading_two": "heading_two Portfolio Design",
     "heading_three": "heading_three Portfolio Development",
     "splash_heading": "splash_heading Portfolio slug DinanDev and DinanWeb",
-    "error_reporting_powered_by": "Error reporting powered by",
-    "coverage_powered_by": "Code coverage powered by",
     "paragraph_one": "paragraph_one Portfolio slug ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Ut enim ad minim veniam",
     "paragraph_two": "paragraph_two Portfolio slug ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor  Ut enim ad minim veniam",
     "paragraph_three": "paragraph_three Portfolio slug ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do enim ad minim veniam",
@@ -91,7 +89,9 @@
     "label": "label content",
     "hero_image_url": "#",
     "imageUrl": "#",
-    "backgroundUrl": "#"
+    "backgroundUrl": "#",
+    "error_reporting_powered_by": "Error reporting powered by",
+    "coverage_powered_by": "Code coverage powered by"
   },
   "Contact": {
     "meta_title": "Contact",
