@@ -1,70 +1,186 @@
 {
-  "RootLayout": {
-    "home_link": "Accueil",
-    "about_link": "A propos",
-    "guestbook_link": "Livre d'or",
-    "portfolio_link": "Portfolio",
-    "sign_in_link": "Se connecter",
-    "sign_up_link": "S'inscrire"
-  },
   "BaseTemplate": {
-    "description": "Code de démarrage pour Next.js avec Tailwind CSS",
+    "description": "Vercel Next le modèle de base Dinan",
+    "imageUrl": "#",
+    "imageUrlAlt": "alt",
+    "backgroundImageUrlAlt": "alt",
+    "backgroundImageUrl": "#",
+    "backgroundVideoUrl": "#",
     "made_with": "Fait avec"
   },
+  "RootLayout": {
+    "home_link": "Accueil",
+    "about_link": "À propos",
+    "guestbook_link": "Livre d'or",
+    "portfolio_link": "Portfolio",
+    "github_link": "GitHub",
+    "contact_link": "Contact",
+    "sign_in_link": "Se connecter",
+    "sign_up_link": "S'inscrire",
+    "logo_image_url": "https://storage.googleapis.com/dinan/vercel-next-boilerplate/logoipsum-236.svg",
+    "imageUrl": "#",
+    "imageUrlAlt": "alt",
+    "backgroundImageUrlAlt": "alt",
+    "backgroundImageUrl": "#",
+    "backgroundVideoUrl": "#"
+  },
   "Index": {
-    "meta_title": "Présentation de Next.js Boilerplate",
-    "meta_description": "Next js Boilerplate est le code de démarrage parfait pour votre projet. Construisez votre application React avec le framework Next.js."
-  },
-  "Guestbook": {
-    "meta_title": "Livre d'or",
-    "meta_description": "Un exemple de fonctionnement CRUD",
-    "database_powered_by": "Base de données propulsée par",
-    "loading_guestbook": "Chargement du livre d'or..."
-  },
-  "GuestbookForm": {
-    "username": "Nom d'utilisateur",
-    "body": "Message",
-    "save": "Sauvegarder"
+    "meta_title": "Modèle Vercel de démarrage pour votre projet",
+    "meta_description": "pour les développeurs freelances",
+    "splash_heading": "en-tête éclaboussure Index DinanDev et le DinanWeb",
+    "heading_one": "en-tête un Index",
+    "heading_two": "en-tête deux Index",
+    "heading_three": "en-tête trois Index",
+    "paragraph_one": "paragraphe un Index Solutions Innovantes, Expertise Exceptionnelle",
+    "paragraph_two": "paragraphe deux Index Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. Ut minim veniam",
+    "paragraph_three": "paragraphe trois Index Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do enim ad minim veniam",
+    "paragraph_four": "paragraphe quatre Index Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Ut enim ad minim veniam",
+    "paragraph_five": "paragraphe cinq Index Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Ut enim ad minim veniam",
+    "paragraph_six": "paragraphe six Index Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Ut enim ad minim veniam",
+    "cta": "Contactez-nous",
+    "label": "étiquette contenu",
+    "hero_image_url": "#",
+    "imageUrl": "#",
+    "imageUrlAlt": "alt",
+    "backgroundImageUrl": "#",
+    "backgroundImageUrlAlt": "alt",
+    "backgroundVideoUrl": "#"
   },
   "About": {
-    "meta_title": "A propos",
-    "meta_description": "A propos description",
-    "about_paragraph": "Bienvenue sur notre page À propos ! Nous sommes une équipe de passionnés et dévoués à la création de logiciels.",
-    "translation_powered_by": "Traduction propulsée par"
+    "meta_title": "À propos",
+    "meta_description": "Description de la page À propos",
+    "splash_heading": "en-tête éclaboussure À propos de DinanDev et le DinanWeb",
+    "heading_one": "en-tête un À propos",
+    "heading_two": "en-tête deux À propos",
+    "heading_three": "en-tête trois À propos",
+    "paragraph_one": "paragraphe un À propos Solutions Innovantes, Expertise Exceptionnelle",
+    "paragraph_two": "paragraphe deux À propos Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. Ut minim veniam",
+    "paragraph_three": "paragraphe trois À propos Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do enim ad minim veniam",
+    "paragraph_four": "paragraphe quatre À propos Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Ut enim ad minim veniam",
+    "paragraph_five": "paragraphe cinq À propos Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Ut enim ad minim veniam",
+    "paragraph_six": "paragraphe six À propos Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Ut enim ad minim veniam",
+    "cta": "Contactez-nous",
+    "label": "étiquette contenu",
+    "hero_image_url": "#",
+    "imageUrl": "#",
+    "imageUrlAlt": "alt",
+    "backgroundImageUrl": "#",
+    "backgroundImageUrlAlt": "alt",
+    "backgroundVideoUrl": "#"
   },
   "Portfolio": {
     "meta_title": "Portfolio",
-    "meta_description": "Bienvenue sur la page de mon portfolio !",
-    "presentation": "Bienvenue sur ma page portfolio ! Vous trouverez ici une collection soigneusement organisée de mon travail et de mes réalisations. À travers ce portfolio, je mets en valeur mon expertise, ma créativité et la valeur que je peux apporter à vos projets.",
+    "meta_description": "Bienvenue sur ma page de portfolio",
     "portfolio_name": "Portfolio {name}",
-    "log_management_powered_by": "Gestion des logs propulsée par"
+    "splash_heading": "en-tête éclaboussure À propos de DinanDev et le DinanWeb",
+    "heading_one": "en-tête un Portfolio",
+    "heading_two": "en-tête deux Design Portfolio",
+    "heading_three": "en-tête trois Développement Portfolio",
+    "paragraph_one": "paragraphe un Portfolio Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Ut enim ad minim veniam",
+    "paragraph_two": "paragraphe deux Portfolio Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. Ut enim ad minim veniam",
+    "paragraph_three": "paragraphe trois Portfolio Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do enim ad minim veniam",
+    "paragraph_four": "paragraphe quatre Portfolio Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Ut enim ad minim veniam",
+    "paragraph_five": "paragraphe cinq Portfolio Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Ut enim ad minim veniam.",
+    "paragraph_six": "paragraphe six Portfolio Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Ut enim ad minim veniam",
+    "cta": "Contactez-nous",
+    "label": "étiquette contenu",
+    "hero_image_url": "#",
+    "imageUrl": "#",
+    "imageUrlAlt": "alt",
+    "backgroundImageUrl": "#",
+    "backgroundImageUrlAlt": "alt",
+    "backgroundVideoUrl": "#",
+    "log_management_powered_by": "Gestion des journaux alimentée par"
   },
   "PortfolioSlug": {
     "meta_title": "Portfolio {slug}",
-    "meta_description": "Description du Portfolio {slug}",
-    "header": "Portfolio {slug}",
-    "content": "Créé un ensemble de matériel promotionnel et d'éléments de marquage pour un événement d'entreprise. Conçu un thème visuellement unifié, englobant un logo, des affiches, des bannières et des actifs numériques. Intégrer l'identité de marque du client tout en l'insufflant à une approche contemporaine et innovante. Des réponses favorables de la part des participants ont été obtenues, ce qui a donné lieu à un événement réussi avec un engagement accru des participants et une meilleure visibilité de la marque.",
-    "error_reporting_powered_by": "Rapport d'erreur propulsé par",
-    "coverage_powered_by": "Couverture de code propulsée par"
+    "meta_description": "Description du portfolio {slug}",
+    "splash_heading": "en-tête éclaboussure À propos de DinanDev et le DinanWeb",
+    "heading_one": "en-tête un Portfolio {slug}",
+    "heading_two": "en-tête deux Design Portfolio",
+    "heading_three": "en-tête trois Développement Portfolio",
+    "paragraph_one": "paragraphe un Portfolio {slug} Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Ut enim ad minim veniam",
+    "paragraph_two": "paragraphe deux Portfolio {slug} Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. Ut enim ad minim veniam",
+    "paragraph_three": "paragraphe trois Portfolio {slug} Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do enim ad minim veniam",
+    "paragraph_four": "paragraphe quatre Portfolio {slug} Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Ut enim ad minim veniam",
+    "paragraph_five": "paragraphe cinq Portfolio {slug} Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Ut enim ad minim veniam.",
+    "paragraph_six": "paragraphe six Portfolio {slug} Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Ut enim ad minim veniam",
+    "cta": "Contactez-nous",
+    "label": "étiquette contenu",
+    "hero_image_url": "#",
+    "imageUrl": "#",
+    "imageUrlAlt": "alt",
+    "backgroundImageUrl": "#",
+    "backgroundImageUrlAlt": "alt",
+    "backgroundVideoUrl": "#",
+    "error_reporting_powered_by": "Rapports d'erreurs alimentés par",
+    "coverage_powered_by": "Couverture de code alimentée par"
+  },
+  "Contact": {
+    "meta_title": "Contact",
+    "meta_description": "Description de la page Contact",
+    "splash_heading": "en-tête éclaboussure À propos de DinanDev et le DinanWeb",
+    "heading_one": "en-tête un Contact",
+    "heading_two": "en-tête deux Design Contact",
+    "heading_three": "en-tête trois Développement Contact",
+    "paragraph_one": "paragraphe un Contact Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Ut enim ad minim veniam",
+    "paragraph_two": "paragraphe deux Contact Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. Ut enim ad minim veniam",
+    "paragraph_three": "paragraphe trois Contact Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do enim ad minim veniam",
+    "paragraph_four": "paragraphe quatre Contact Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Ut enim ad minim veniam",
+    "paragraph_five": "paragraphe cinq Contact Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Ut enim ad minim veniam.",
+    "paragraph_six": "paragraphe six Contact Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Ut enim ad minim veniam",
+    "cta": "Contactez-nous",
+    "label": "étiquette contenu",
+    "hero_image_url": "#",
+    "imageUrl": "#",
+    "imageUrlAlt": "alt",
+    "backgroundImageUrl": "#",
+    "backgroundImageUrlAlt": "alt",
+    "backgroundVideoUrl": "#"
+  },
+  "Carousel": {
+    "slide1": "diapositive1 Bienvenue sur notre site !",
+    "slide2": "diapositive2 Vivez le meilleur",
+    "slide3": "diapositive3 Rejoignez-nous aujourd'hui",
+    "slide4": "diapositive4 Contactez-nous pour plus",
+    "cta": "Contactez-nous",
+    "label": "étiquette contenu",
+    "hero_image_url": "#",
+    "imageUrl": "#",
+    "imageUrlAlt": "alt",
+    "backgroundImageUrl": "#",
+    "backgroundImageUrlAlt": "alt",
+    "backgroundVideoUrl": "#"
   },
   "SignIn": {
     "meta_title": "Se connecter",
-    "meta_description": "Connectez-vous à votre compte avec facilité."
+    "meta_description": "Connectez-vous facilement à votre compte avec notre processus de connexion convivial."
   },
   "SignUp": {
     "meta_title": "S'inscrire",
-    "meta_description": "Créez un compte sans effort grâce à notre processus d'inscription intuitif."
+    "meta_description": "Créez facilement un compte grâce à notre processus d'inscription intuitif."
   },
   "Dashboard": {
     "meta_title": "Tableau de bord",
-    "hello_message": "Bonjour {email}!"
+    "hello_message": "Bonjour {email} !"
   },
   "UserProfile": {
-    "meta_title": "Profil de l'utilisateur"
+    "meta_title": "Profil utilisateur"
   },
   "DashboardLayout": {
     "dashboard_link": "Tableau de bord",
     "user_profile_link": "Gérer votre compte",
     "sign_out": "Se déconnecter"
+  },
+  "Guestbook": {
+    "meta_title": "Livre d'or",
+    "meta_description": "Un exemple d'opération CRUD",
+    "database_powered_by": "Base de données alimentée par",
+    "loading_guestbook": "Chargement du livre d'or..."
+  },
+  "GuestbookForm": {
+    "username": "Nom d'utilisateur",
+    "body": "Corps",
+    "save": "Sauvegarder"
   }
 }
