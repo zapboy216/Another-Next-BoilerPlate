@@ -35,10 +35,7 @@ export default function RootLayout(props: {
   children: React.ReactNode;
   params: { locale: string };
 }) {
-  // Validate that the incoming `locale` parameter is valid
   if (!AppConfig.locales.includes(props.params.locale)) notFound();
-
-  // Using internationalization in Client Components
   const messages = useMessages();
 
   return (

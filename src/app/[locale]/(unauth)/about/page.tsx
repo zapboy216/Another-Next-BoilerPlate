@@ -16,5 +16,14 @@ export async function generateMetadata(props: { params: { locale: string } }) {
 export default function About() {
   const t = useTranslations('About');
 
-  return <h1>{t('heading')}</h1>;
+  return (
+    <>
+      <h1>{t('heading')}</h1>
+      <h2>{t('heading_two')}</h2>
+      <p>{t('paragraph_one')}</p>
+      <p>{t('paragraph_two')}</p>
+      <p>{t('paragraph_three')}</p>
+      {t('cta')}
+    </>
+  );
 }

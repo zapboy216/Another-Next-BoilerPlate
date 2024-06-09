@@ -44,7 +44,7 @@ export default function Layout(props: { children: React.ReactNode }) {
           <li className="rounded-md bg-white shadow-lg hover:bg-gray-100">
             <a
               className="block cursor-pointer px-6 py-3 text-gray-700 transition-colors hover:text-gray-900"
-              href="#"
+              href="https://github.com/zapboy216/Vercel-Next-BoilerPlate"
             >
               {t('github_link')}
             </a>
