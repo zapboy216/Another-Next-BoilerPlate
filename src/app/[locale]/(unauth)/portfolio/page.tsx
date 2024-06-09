@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
@@ -38,7 +37,6 @@ const Portfolio = () => {
       <p>{t('paragraph_two')}</p>
       <p>{t('paragraph_three')}</p>
       {t('cta')}
-      <Image src={t('imageUrl')} alt={t('imageAlt')} width="300" height="300" />
     </>
   );
 };
