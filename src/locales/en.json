@@ -149,7 +149,7 @@
     "imageUrl": "#",
     "imageUrlAlt": "alt",
     "backgroundImageUrlAlt": "alt",
-    "backgroundUrl": "#",
+    "backgroundImageUrl": "#",
     "backgroundVideoUrl": "#"
   },
   "SignIn": {
