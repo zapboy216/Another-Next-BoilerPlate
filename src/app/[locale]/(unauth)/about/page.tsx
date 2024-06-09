@@ -1,8 +1,6 @@
 import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
 
-import { AboutUs } from '@/components/component/about-us';
-
 export async function generateMetadata(props: { params: { locale: string } }) {
   const t = await getTranslations({
     locale: props.params.locale,
@@ -18,5 +16,5 @@ export async function generateMetadata(props: { params: { locale: string } }) {
 export default function About() {
   const t = useTranslations('About');
 
-  return <AboutUs />;
+  return <h1>{t('heading')}</h1>;
 }

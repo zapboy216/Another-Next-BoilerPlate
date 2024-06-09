@@ -8,19 +8,21 @@
     "sign_up_link": "Sign up"
   },
   "BaseTemplate": {
-    "description": "Dinan Web Development",
+    "description": "Web Development",
     "made_with": "Made with"
   },
   "Index": {
-    "meta_title": "Dinan Web Development",
+    "meta_title": "Template for your Project",
     "meta_description": "Freelance web developers in South Florida",
+    "heading": "A Freelance Software Development Firm",
     "hero_image_url": "https://storage.googleapis.com/dinan/dinanweb/med4.png",
     "paragraph_one": "Innovative Web Solutions, Exceptional Expertise",
     "paragraph_two": "ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
     "paragraph_three": "ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do enim ad minim veniam",
     "paragraph_four": "ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Ut enim ad minim veniam",
     "label": "Introducing",
-    "heading": "A Freelance Software Development Firm"
+    "imageUrl": "https://storage.googleapis.com/dinan/dinanweb/med1.png",
+    "backgroundUrl": "https://storage.googleapis.com/dinan/dinanweb/lrg1.png"
   },
   "Guestbook": {
     "meta_title": "Guestbook",
@@ -42,18 +44,16 @@
   "About": {
     "meta_title": "About",
     "meta_description": "About page description",
-    "about_paragraph": "We are a dynamic team of designers, developers and innovators, driven to create exceptional digital experiences.",
-    "about_paragraph_two": "We are constantly pushing the boundaries of what's possible,always seeking new and innovative solutions.",
-    "about_paragraph_three": "Our team of talented designers create visually stunning and user-friendly interfaces.",
-    "about_paragraph_four": "We build robust and scalable applications using the latest technologies and best practices.",
-    "about_paragraph_five": "Our mission is to empower businesses and individuals to achieve their goals through cutting-edge technology and design.",
-    "about_paragraph_six": " helping businesses transform their digital presence and drive growth. Our passionate experts are dedicated to delivering exceptional results, and we take pride in our ability to consistently exceed our clients' expectations",
-    "splash_heading": "About DinanDev and DinanWeb",
     "heading": "Innovation",
     "heading_two": "Design",
     "heading_three": "Development",
-    "paragraph_heading": "Our Story",
-    "paragraph": "some about us content",
+    "splash_heading": "About DinanDev and DinanWeb",
+    "paragraph_one": "ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Ut enim ad minim veniam",
+    "paragraph_two": "ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Ut enim ad minim veniam",
+    "paragraph_three": "ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Ut enim ad minim veniam",
+    "paragraph_four": "We build robust and scalable applications using the latest technologies and best practices.",
+    "paragraph_five": "ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Ut enim ad minim veniam",
+    "paragraph_six": "ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Ut enim ad minim veniam",
     "imageUrl": "https://storage.googleapis.com/dinan/dinanweb/med1.png",
     "backgroundUrl": "https://storage.googleapis.com/dinan/dinanweb/lrg1.png"
   },
@@ -63,10 +63,14 @@
     "presentation": "Welcome to my portfolio page! Here you will find a carefully curated collection of my work and accomplishments. Through this portfolio, I'm to showcase my expertise, creativity, and the value I can bring to your projects.",
     "portfolio_name": "Portfolio {name}",
     "log_management_powered_by": "Log management powered by",
-    "paragraph_one": "Innovative Web Solutions, Exceptional Expertise",
+    "paragraph_one": "ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Ut enim ad minim veniam",
     "paragraph_two": "ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
     "paragraph_three": "ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do enim ad minim veniam",
-    "paragraph_four": "ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Ut enim ad minim veniam"
+    "paragraph_four": "ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Ut enim ad minim veniam",
+    "paragraph_five": "ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Ut enim ad minim veniam.",
+    "paragraph_six": "ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Ut enim ad minim veniam",
+    "imageUrl": "https://storage.googleapis.com/dinan/dinanweb/med1.png",
+    "backgroundUrl": "https://storage.googleapis.com/dinan/dinanweb/lrg1.png"
   },
   "PortfolioSlug": {
     "meta_title": "Portfolio {slug}",
@@ -78,7 +82,9 @@
     "paragraph_one": "Innovative Web Solutions, Exceptional Expertise",
     "paragraph_two": "ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
     "paragraph_three": "ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do enim ad minim veniam",
-    "paragraph_four": "ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Ut enim ad minim veniam"
+    "paragraph_four": "ILorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. Ut enim ad minim veniam",
+    "imageUrl": "#",
+    "backgroundUrl": "#"
   },
   "SignIn": {
     "meta_title": "Sign in",
