@@ -1,6 +1,9 @@
 {
   "BaseTemplate": {
     "description": "Vercel Next the Dinan BaseTemplate",
+    "heading_one": "VercelLogo",
+    "logo_image_url": "https://storage.googleapis.com/dinan/vercel-next-boilerplate/logoipsum-236.svg",
+    "logo_image_alt": "logo",
     "imageUrl": "#",
     "imageUrlAlt": "alt",
     "backgroundImageUrlAlt": "alt",
@@ -15,9 +18,8 @@
     "portfolio_link": "Portfolio",
     "github_link": "GitHub",
     "contact_link": "Contact",
-    "sign_in_link": "Sign in",
-    "sign_up_link": "Sign up",
-    "logo_image_url": "https://storage.googleapis.com/dinan/vercel-next-boilerplate/logoipsum-236.svg",
+    "sign_in_link": "Sign-in",
+    "sign_up_link": "Sign-up",
     "imageUrl": "#",
     "imageUrlAlt": "alt",
     "backgroundImageUrlAlt": "alt",

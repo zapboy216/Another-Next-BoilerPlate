@@ -1,7 +1,8 @@
-// file name and location:src/app/[locale]/(unauth)/layout.tsx
+// src/app/[locale]/(unauth)/layout.tsx
 
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
+import React from 'react';
 
 import LocaleSwitcher from '@/components/LocaleSwitcher';
 import { BaseTemplate } from '@/templates/BaseTemplate';
