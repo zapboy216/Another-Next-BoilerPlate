@@ -13,7 +13,12 @@ const bundleAnalyzer = withBundleAnalyzer({
 export default bundleAnalyzer(
   withNextIntlConfig({
     images: {
-      remotePatterns: [{ hostname: 'storage.googleapis.com' }],
+      remotePatterns: [
+        {
+          protocol: 'https',
+          hostname: 'storage.googleapis.com',
+        },
+      ],
     },
     eslint: {
       dirs: ['.'],
