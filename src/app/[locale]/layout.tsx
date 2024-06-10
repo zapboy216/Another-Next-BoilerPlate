@@ -1,3 +1,5 @@
+// file name and location:src/app/[locale]/layout.tsx
+
 import '@/styles/global.css';
 
 import type { Metadata } from 'next';

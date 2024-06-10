@@ -1,3 +1,5 @@
+// file name and location:src/templates/BaseTemplate.tsx
+
 import { useTranslations } from 'next-intl';
 import React from 'react';
 

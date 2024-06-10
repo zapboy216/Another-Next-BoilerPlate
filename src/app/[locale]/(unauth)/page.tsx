@@ -1,4 +1,5 @@
-// app/page.tsx
+// file name and location:src/app/[locale]/(unauth)/page.tsx
+
 import { useTranslations } from 'next-intl';
 import React from 'react';
 

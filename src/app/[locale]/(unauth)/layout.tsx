@@ -1,4 +1,4 @@
-// Layout.tsx
+// file name and location:src/app/[locale]/(unauth)/layout.tsx
 
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
