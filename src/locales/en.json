@@ -2,6 +2,8 @@
   "BaseTemplate": {
     "description": "Vercel Next the Dinan BaseTemplate",
     "heading_one": "VercelLogo",
+    "splash_heading": "splash_heading Index DinanDev and the DinanWeb",
+    "paragraph_one": "paragraph_one index Innovative Solutions, Exceptional Expertise",
     "logo_image_url": "https://storage.googleapis.com/dinan/vercel-next-boilerplate/logoipsum-236.svg",
     "logo_image_alt": "logo",
     "imageUrl": "#",
@@ -9,7 +11,9 @@
     "backgroundImageUrlAlt": "alt",
     "backgroundImageUrl": "#",
     "backgroundVideoUrl": "#",
-    "made_with": "Made with"
+    "made_with": "Made with",
+    "get_started": "get started",
+    "learn_more": "learn more"
   },
   "RootLayout": {
     "home_link": "Home",

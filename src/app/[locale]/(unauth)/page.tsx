@@ -3,7 +3,7 @@
 import { useTranslations } from 'next-intl';
 import React from 'react';
 
-import { HeroSection } from '@/components/component/hero-section';
+import { HeroSection } from '@/components/component/hero-section-video';
 
 const HomePage: React.FC = () => {
   const t = useTranslations('Index');
