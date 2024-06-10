@@ -6,11 +6,11 @@
     "paragraph_one": "paragraph_one index Innovative Solutions, Exceptional Expertise",
     "logo_image_url": "https://storage.googleapis.com/dinan/vercel-next-boilerplate/logoipsum-236.svg",
     "logo_image_alt": "logo",
-    "imageUrl": "#",
+    "imageUrl": "https://storage.cloud.google.com/dinan/vercel-next-boilerplate/AdobeStock_578244775_Preview.jpeg",
     "imageUrlAlt": "alt",
     "backgroundImageUrlAlt": "alt",
     "backgroundImageUrl": "#",
-    "backgroundVideoUrl": "#",
+    "backgroundVideoUrl": "https://storage.googleapis.com/dinan/vercel-next-boilerplate/AdobeStock_220459472_Video_HD_Preview.mp4",
     "made_with": "Made with",
     "get_started": "get started",
     "learn_more": "learn more"

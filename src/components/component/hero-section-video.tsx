@@ -14,7 +14,7 @@ export async function HeroSection() {
         loop
         muted
       >
-        <source src="/path-to-your-video.mp4" type="video/mp4" />
+        <source src={t('backgroundVideoUrl')} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       <div className="container relative grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-16">
@@ -35,7 +35,7 @@ export async function HeroSection() {
             alt="Hero Image"
             className="mx-auto aspect-square rounded-lg object-cover"
             height={600}
-            src="/placeholder.svg"
+            src={t('imageUrl')}
             width={600}
           />
         </div>
