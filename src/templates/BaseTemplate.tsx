@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import React, { useState } from 'react';
 
+import MenuButton from '@/components/MenuButton';
 import { AppConfig } from '@/utils/AppConfig';
 
 const BaseTemplate = (props: {
@@ -31,25 +32,10 @@ const BaseTemplate = (props: {
             </div>
             <div className="shrink-0" />
             <div className="lg:hidden">
-              <button
+              <MenuButton
                 onClick={toggleMobileMenu}
-                className="text-gray-900 focus:outline-none"
-              >
-                <svg
-                  className="size-6"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M4 6h16M4 12h16m-7 6h7"
-                  />
-                </svg>
-              </button>
+                isOpen={isMobileMenuOpen}
+              />
             </div>
           </div>
           <nav className={`lg:flex ${isMobileMenuOpen ? 'block' : 'hidden'}`}>
@@ -59,7 +45,7 @@ const BaseTemplate = (props: {
                 <div className="flex items-center justify-center">
                   <Image
                     src={t('logo_image_url')}
-                    alt="{t('logo_image_alt')}"
+                    alt={t('logo_image_alt')}
                     width={200} // Desired width of the image
                     height={200} // Desired height of the image
                     className="mx-20 rounded-lg shadow-lg"
