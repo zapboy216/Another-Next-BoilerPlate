@@ -1,29 +1,17 @@
+// file name and location:src/app/[locale]/(unauth)/page.tsx
+
 import { useTranslations } from 'next-intl';
-import { getTranslations } from 'next-intl/server';
+import React from 'react';
 
-export async function generateMetadata(props: { params: { locale: string } }) {
-  const t = await getTranslations({
-    locale: props.params.locale,
-    namespace: 'Contact',
-  });
+import { HeroSection } from '@/components/component/hero-section-contact';
 
-  return {
-    title: t('meta_title'),
-    description: t('meta_description'),
-  };
-}
-
-export default function About() {
-  const t = useTranslations('Contact');
-
+const HomePage: React.FC = () => {
+  const t = useTranslations('Index');
   return (
-    <>
-      <h1>{t('heading_one')}</h1>
-      <h2>{t('heading_two')}</h2>
-      <p>{t('paragraph_one')}</p>
-      <p>{t('paragraph_two')}</p>
-      <p>{t('paragraph_three')}</p>
-      {t('cta')}
-    </>
+    <main>
+      <HeroSection />
+    </main>
   );
-}
+};
+
+export default HomePage;

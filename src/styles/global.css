@@ -131,3 +131,22 @@
 body {
   font-family: 'Poppins', sans-serif;
 }
+/* globals.css */
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  max-width: 100%;
+  margin: 0 auto;
+  color: white; /* Ensure text is white */
+}
+
+.text-gray-300 {
+  color: rgba(255, 255, 255, 0.75); /* Override text color for better readability */
+}
+
+.video-overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
