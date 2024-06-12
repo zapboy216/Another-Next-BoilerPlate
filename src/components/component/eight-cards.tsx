@@ -1,3 +1,4 @@
+import getTranslations from 'next-intl';
 import React from 'react';
 
 function CodeIcon(props) {
@@ -170,10 +171,11 @@ function WindIcon(props) {
 }
 
 export default function EightCards() {
+  const t = getTranslations('Skills');
   return (
     <div className="container mx-0 px-4 py-12 md:px-6 lg:px-2">
       <section className="mb-12">
-        <h2 className="mb-6 text-3xl font-bold">Technical Skills</h2>
+        <h2 className="mb-6 text-3xl font-bold">{t('splash_heading_one')}</h2>
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           <div className="flex flex-col items-center rounded-lg bg-gray-100 p-6 dark:bg-gray-800">
             <CodeIcon className="mb-4 size-12 text-primary" />
@@ -210,7 +212,7 @@ export default function EightCards() {
         </div>
       </section>
       <section className="mb-12">
-        <h2 className="mb-6 text-3xl font-bold">Soft Skills</h2>
+        <h2 className="mb-6 text-3xl font-bold">{t('splash_heading_two')}</h2>
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           <div className="flex flex-col items-center rounded-lg bg-gray-100 p-6 dark:bg-gray-800">
             <UsersIcon className="mb-4 size-12 text-primary" />
