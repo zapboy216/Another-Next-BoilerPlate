@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import React, { useState } from 'react';
+import ChatBot from 'react-chatbotify';
 
 import MenuButton from '@/components/MenuButton';
 import { AppConfig } from '@/utils/AppConfig';
@@ -57,6 +58,7 @@ const BaseTemplate = (props: {
           </nav>
         </header>
         <main>{props.children}</main>
+        <ChatBot />
       </div>
     </div>
   );

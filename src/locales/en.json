@@ -1,6 +1,6 @@
 {
   "BaseTemplate": {
-    "description": "Vercel Next the Dinan BaseTemplate",
+    "description": "Vercel Next the Dinan Template",
     "heading_one": "Welcome to DinanWeb",
     "splash_heading": "Innovative Solutions, Exceptional Expertise",
     "paragraph_one": "DinanWeb is a freelance software development firm located in Boca Raton, South Florida. We specialize in web development with various JavaScript libraries, with React being our main library.",
@@ -40,7 +40,7 @@
     "paragraph_one": "DinanWeb is a freelance software development firm located in Boca Raton, South Florida. We specialize in web development with various JavaScript libraries, with React being our main library.",
     "paragraph_two": "Our team stays ahead of the curve by following the latest trends in modern UI design, AI integration, and cybersecurity.",
     "paragraph_three": "With over 25 years of experience, we have established significant contacts in the industry and are known for our expertise.",
-    "paragraph_four": "We take pride in our participation in hacking competitions and have secured top positions on various leaderboards.",
+    "paragraph_four": "Code | Develop | Pentest | The Freelancers",
     "paragraph_five": "At DinanWeb, we are committed to delivering innovative solutions and exceptional service.",
     "paragraph_six": "Contact us today to learn how we can help you achieve your project goals.",
     "cta": "Contact Us",
@@ -64,7 +64,7 @@
     "paragraph_one": "DinanWeb is a premier freelance software development firm based in Boca Raton, South Florida. We specialize in web development using a variety of JavaScript libraries, with React as our primary technology",
     "paragraph_two": "We are dedicated to staying ahead of the latest trends in modern UI design, AI integration, and cybersecurity.",
     "paragraph_three": "Our team has over 25 years of experience in web development and has built a strong network of contacts in the industry.",
-    "paragraph_four": "We actively participate in hacking competitions and have achieved top rankings on multiple platforms.",
+    "paragraph_four": "Code | Develop | Pentest | The Freelancers",
     "paragraph_five": "At DinanWeb, we pride ourselves on delivering innovative solutions and exceptional service to our clients.",
     "paragraph_six": "Contact us today to learn more about our services and how we can help you with your project.",
     "cta": "Contact Us",
