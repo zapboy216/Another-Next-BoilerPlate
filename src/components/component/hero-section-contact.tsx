@@ -25,10 +25,45 @@ export async function HeroSection() {
           <p className="mt-4 text-lg text-gray-300 md:text-xl">
             {t('paragraph_one')}
           </p>
-          <div className="mt-6 flex flex-col gap-4 sm:flex-row">
-            <Button>{t('get_started')}</Button>
-            <Button variant="secondary">{t('learn_more')}</Button>
-          </div>
+          <form className="mt-6 flex flex-col gap-4">
+            <div className="flex flex-col">
+              <label htmlFor="name" className="mb-2 text-lg text-gray-300">
+                {t('name_label')}
+              </label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                className="rounded-lg p-3 text-black"
+                required
+              />
+            </div>
+            <div className="flex flex-col">
+              <label htmlFor="email" className="mb-2 text-lg text-gray-300">
+                {t('email_label')}
+              </label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                className="rounded-lg p-3 text-black"
+                required
+              />
+            </div>
+            <div className="flex flex-col">
+              <label htmlFor="message" className="mb-2 text-lg text-gray-300">
+                {t('message_label')}
+              </label>
+              <textarea
+                id="message"
+                name="message"
+                className="rounded-lg p-3 text-black"
+                rows="4"
+                required
+              />
+            </div>
+            <Button type="submit">{t('submit_button')}</Button>
+          </form>
         </div>
       </div>
     </section>
