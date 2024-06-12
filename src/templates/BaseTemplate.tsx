@@ -29,8 +29,8 @@ const BaseTemplate = (props: {
               <Image
                 src={t('logo_image_url')}
                 alt={t('logo_image_alt')}
-                width={50} // Desired width of the image
-                height={50} // Desired height of the image
+                width={200} // Desired width of the image
+                height={125} // Desired height of the image
                 className="rounded-lg shadow-lg"
               />
               <div>
