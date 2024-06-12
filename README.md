@@ -1,5 +1,6 @@
 # The Vercel Next Dinan Boilerplate
-       
+
+## it is a left leaning Layout, a clever layout to allow for an AI chatbot     
        
 ## next.js template       
 ## typescript
@@ -20,3 +21,6 @@
 ## jest testing framework
 ## Secure and Professional
 
+
+
+Deploy to Vercel

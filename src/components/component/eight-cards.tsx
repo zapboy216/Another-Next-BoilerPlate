@@ -1,5 +1,21 @@
-import getTranslations from 'next-intl';
+'use client';
+
+import { useTranslations } from 'next-intl';
 import React from 'react';
+
+export async function generateMetadata(props: { params: { locale: string } }) {
+  const t = await import('next-intl/server').then((intl) =>
+    intl.getTranslations({
+      locale: props.params.locale,
+      namespace: 'BaseTemplate',
+    }),
+  );
+
+  return {
+    title: t('meta_title'),
+    description: t('meta_description'),
+  };
+}
 
 function CodeIcon(props) {
   return (
@@ -171,7 +187,7 @@ function WindIcon(props) {
 }
 
 export default function EightCards() {
-  const t = getTranslations('Skills');
+  const t = useTranslations('Skills');
   return (
     <div className="container mx-0 px-4 py-12 md:px-6 lg:px-2">
       <section className="mb-12">
