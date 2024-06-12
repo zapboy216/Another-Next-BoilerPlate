@@ -36,6 +36,13 @@ export default function Layout(props: { children: React.ReactNode }) {
             </Link>
           </li>
           <li className="rounded-md bg-white shadow-lg hover:bg-gray-100">
+            <Link href="/skills/">
+              <span className="block cursor-pointer px-6 py-3 text-gray-700 transition-colors hover:text-gray-900">
+                {t('skills_link')}
+              </span>
+            </Link>
+          </li>
+          <li className="rounded-md bg-white shadow-lg hover:bg-gray-100">
             <Link href="/portfolio/">
               <span className="block cursor-pointer px-6 py-3 text-gray-700 transition-colors hover:text-gray-900">
                 {t('portfolio_link')}

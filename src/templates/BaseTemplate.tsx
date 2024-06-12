@@ -29,8 +29,8 @@ const BaseTemplate = (props: {
               <Image
                 src={t('logo_image_url')}
                 alt={t('logo_image_alt')}
-                width={200} // Desired width of the image
-                height={125} // Desired height of the image
+                width={200}
+                height={125}
                 className="rounded-lg shadow-lg"
               />
               <div>
@@ -48,7 +48,7 @@ const BaseTemplate = (props: {
             </div>
           </div>
           <nav className={`lg:flex ${isMobileMenuOpen ? 'block' : 'hidden'}`}>
-            <ul className="flex flex-col lg:flex-row lg:space-x-4">
+            <ul className="ml-20 flex flex-col lg:flex-row lg:space-x-4">
               {props.leftNav}
               {props.rightNav}
             </ul>

@@ -1,6 +1,6 @@
 {
   "BaseTemplate": {
-    "description": "Vercel Next the Dinan Template",
+    "description": "The Next Vercel Dinan Template",
     "heading_one": "Welcome to DinanWeb",
     "splash_heading": "Innovative Solutions, Exceptional Expertise",
     "paragraph_one": "DinanWeb is a freelance software development firm located in Boca Raton, South Florida. We specialize in modern web applications.",
@@ -19,6 +19,7 @@
     "home_link": "Home",
     "about_link": "About",
     "guestbook_link": "Guestbook",
+    "skills_link": "Skills",
     "portfolio_link": "Portfolio",
     "github_link": "GitHub",
     "contact_link": "Contact",
