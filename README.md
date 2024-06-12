@@ -1,3 +1,3 @@
-# Dinan Vercel Next Boilerplate
-       a boilerplate in typescript.
+# The Vercel Next Dinan Boilerplate
+       a boilerplate in typescript. project under construction
 
