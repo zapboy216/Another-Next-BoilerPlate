@@ -2,8 +2,8 @@ import { getTranslations } from 'next-intl/server';
 
 import { Button } from '@/components/ui/button';
 
-export async function HeroSection() {
-  const t = await getTranslations('Index');
+export default async function Clubs() {
+  const t = await getTranslations('Clubs');
 
   return (
     <section className="relative w-full py-24 md:py-32 lg:py-40">

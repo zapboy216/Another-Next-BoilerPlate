@@ -2,8 +2,8 @@ import { getTranslations } from 'next-intl/server';
 
 import { Button } from '@/components/ui/button';
 
-export default async function About() {
-  const t = await getTranslations('About');
+export default async function Spades() {
+  const t = await getTranslations('Spades');
 
   return (
     <section className="relative w-full py-24 md:py-32 lg:py-40">

@@ -1,6 +1,9 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
+
+import EightCards from '@/components/component/eight-cards';
 
 export async function generateMetadata(props: { params: { locale: string } }) {
   const t = await getTranslations({
@@ -19,24 +22,75 @@ const Portfolio = () => {
 
   return (
     <>
-      <div className="grid grid-cols-1 justify-items-start gap-3 md:grid-cols-2 xl:grid-cols-3">
-        {Array.from(Array(6).keys()).map((elt) => (
-          <Link
-            className="hover:text-blue-700"
-            key={elt}
-            href={`/portfolio/${elt}`}
-          >
-            {t('portfolio_name', { name: elt })}
-          </Link>
-        ))}
+      <EightCards />
+      <div className="flex flex-wrap gap-4">
+        <ul className="flex flex-wrap gap-4">
+          <li className="w-full flex-1 rounded-md border border-gray-300 shadow-lg transition-all hover:bg-gray-100 sm:w-auto">
+            <Link href="/hearts/">
+              <span className="block cursor-pointer px-6 py-3 text-gray-700 transition-colors hover:text-gray-900">
+                {t('hearts_link')}
+                <Image
+                  src={t('imageUrl')}
+                  alt={t('imageUrlAlt')}
+                  width="300"
+                  height="300"
+                />
+                <div>{t('splash_heading')}</div>
+                <div>{t('paragraph_one')}</div>
+                <div>{t('paragraph_two')}</div>
+              </span>
+            </Link>
+          </li>
+          <li className="w-full flex-1 rounded-md border border-gray-300 shadow-lg transition-all hover:bg-gray-100 sm:w-auto">
+            <Link href="/diamonds/">
+              <span className="block cursor-pointer px-6 py-3 text-gray-700 transition-colors hover:text-gray-900">
+                {t('diamonds_link')}
+                <Image
+                  src={t('imageUrl')}
+                  alt={t('imageUrlAlt')}
+                  width="300"
+                  height="300"
+                />
+                <div>{t('splash_heading')}</div>
+                <div>{t('paragraph_one')}</div>
+                <div>{t('paragraph_two')}</div>
+              </span>
+            </Link>
+          </li>
+          <li className="w-full flex-1 rounded-md border border-gray-300 shadow-lg transition-all hover:bg-gray-100 sm:w-auto">
+            <Link href="/spades/">
+              <span className="block cursor-pointer px-6 py-3 text-gray-700 transition-colors hover:text-gray-900">
+                {t('spades_link')}
+                <Image
+                  src={t('imageUrl')}
+                  alt={t('imageUrlAlt')}
+                  width="300"
+                  height="300"
+                />
+                <div>{t('splash_heading')}</div>
+                <div>{t('paragraph_one')}</div>
+                <div>{t('paragraph_two')}</div>
+              </span>
+            </Link>
+          </li>
+          <li className="w-full flex-1 rounded-md border border-gray-300 shadow-lg transition-all hover:bg-gray-100 sm:w-auto">
+            <Link href="/clubs/">
+              <span className="block cursor-pointer px-6 py-3 text-gray-700 transition-colors hover:text-gray-900">
+                {t('clubs_link')}
+                <Image
+                  src={t('imageUrl')}
+                  alt={t('imageUrlAlt')}
+                  width="300"
+                  height="300"
+                />
+                <div>{t('splash_heading')}</div>
+                <div>{t('paragraph_one')}</div>
+                <div>{t('paragraph_two')}</div>
+              </span>
+            </Link>
+          </li>
+        </ul>
       </div>
-      <h1>{t('splash_heading')}</h1>
-      <h1>{t('heading_one')}</h1>
-      <h2>{t('heading_two')}</h2>
-      <p>{t('paragraph_one')}</p>
-      <p>{t('paragraph_two')}</p>
-      <p>{t('paragraph_three')}</p>
-      {t('cta')}
     </>
   );
 };
