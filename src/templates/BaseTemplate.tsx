@@ -25,13 +25,21 @@ const BaseTemplate = (props: {
       <div className="mx-20 max-w-screen-md lg:max-w-full">
         <header className="border-none">
           <div className="flex items-center justify-between py-4">
-            <div>
-              <h1 className="text-4xl font-bold text-gray-900">
-                {AppConfig.name}
-              </h1>
-              <h2 className="text-xl">{t('description')}</h2>
+            <div className="flex items-center space-x-4">
+              <Image
+                src={t('logo_image_url')}
+                alt={t('logo_image_alt')}
+                width={50} // Desired width of the image
+                height={50} // Desired height of the image
+                className="rounded-lg shadow-lg"
+              />
+              <div>
+                <h1 className="text-4xl font-bold text-gray-900">
+                  {AppConfig.name}
+                </h1>
+                <h2 className="text-xl">{t('description')}</h2>
+              </div>
             </div>
-            <div className="shrink-0" />
             <div className="lg:hidden">
               <MenuButton
                 onClick={toggleMobileMenu}
@@ -40,19 +48,8 @@ const BaseTemplate = (props: {
             </div>
           </div>
           <nav className={`lg:flex ${isMobileMenuOpen ? 'block' : 'hidden'}`}>
-            <ul className="flex flex-col lg:flex-row lg:space-x-3">
+            <ul className="flex flex-col lg:flex-row lg:space-x-4">
               {props.leftNav}
-              <li className="mx-auto px-4 py-0 sm:px-6 md:px-8 lg:px-10">
-                <div className="flex items-center justify-center">
-                  <Image
-                    src={t('logo_image_url')}
-                    alt={t('logo_image_alt')}
-                    width={200} // Desired width of the image
-                    height={200} // Desired height of the image
-                    className="mx-20 rounded-lg shadow-lg"
-                  />
-                </div>
-              </li>
               {props.rightNav}
             </ul>
           </nav>

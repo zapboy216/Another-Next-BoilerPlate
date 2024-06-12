@@ -18,6 +18,10 @@ export default bundleAnalyzer(
           protocol: 'https',
           hostname: 'storage.googleapis.com',
         },
+        {
+          protocol: 'https',
+          hostname: 'via.placeholder.com',
+        },
       ],
     },
     eslint: {

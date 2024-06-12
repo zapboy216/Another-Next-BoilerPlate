@@ -16,10 +16,10 @@ export async function HeroSection() {
         <source src={t('backgroundVideoUrl')} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-      <div className="absolute inset-0 z-10 bg-black opacity-50" />
+      <div className="absolute inset-0 z-10 mt-0 bg-black opacity-50" />
       <div className="container relative z-20 flex items-center justify-center">
         <div className="glassmorphism w-full max-w-screen-md rounded-lg p-6 text-white md:p-8 lg:p-12">
-          <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl">
+          <h1 className="text-4xl font-bold tracking-tighter sm:text-3xl md:text-3xl lg:text-4xl">
             {t('splash_heading')}
           </h1>
           <p className="mt-4 text-lg text-gray-300 md:text-xl">
