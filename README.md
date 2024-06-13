@@ -7,7 +7,7 @@ The Vercel Next Dinan Boilerplate is a comprehensive starting point for developi
 ## Features  
 
 - **Next.js with App Router**: Modern file-based routing and server-rendering framework.
--**React ChatBotify**: AI chatbot assistant
+- **React ChatBotify**: AI chatbot assistant
 - **TypeScript**: Strict typing for a more reliable codebase.
 - **Clerk**: Authentication and authorization services.
 - **Turso DB**: Fast, globally distributed database.
