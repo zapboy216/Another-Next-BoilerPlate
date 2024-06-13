@@ -14,7 +14,6 @@ The Vercel Next Dinan Boilerplate is a comprehensive starting point for developi
 - **Drizzle ORM**: Type-safe ORM compatible with SQLite, PostgreSQL, and MySQL.
 - **React Player**: Media player for handling video and audio content.
 - **Tailwind CSS & Tailwind Animate**: Utility-first CSS framework with animation support.
-- **React ChatBotify**: AI-powered chatbot integration.
 - **Checkly**: Monitoring and end-to-end testing.
 - **Husky**: Git hooks for maintaining code quality.
 - **ESLint**: Linting with strict rules for consistent code.
