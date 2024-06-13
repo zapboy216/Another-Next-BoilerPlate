@@ -4,9 +4,10 @@
 
 The Vercel Next Dinan Boilerplate is a comprehensive starting point for developing sophisticated applications with Next.js, TypeScript, and Tailwind CSS. It includes advanced tools and libraries to streamline the development process, enhance code quality, and ensure a professional developer experience.
 
-## Features
+## Features  
 
 - **Next.js with App Router**: Modern file-based routing and server-rendering framework.
+-**React ChatBotify**: AI chatbot assistant
 - **TypeScript**: Strict typing for a more reliable codebase.
 - **Clerk**: Authentication and authorization services.
 - **Turso DB**: Fast, globally distributed database.
