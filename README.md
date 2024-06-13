@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Vercel Next Dinan Boilerplate is a comprehensive starting point for developing personal and commercial applications with Next.js, TypeScript, and Tailwind CSS. It includes advanced tools and libraries to streamline the development process, enhance code quality, and ensure a professional developer experience.
+The Vercel Next Dinan Boilerplate is a comprehensive starting point for developing personal and commercial applications with Next.js, TypeScript, and Tailwind CSS. It includes advanced tools and libraries to streamline the development process, enhance code quality, and ensure a professional developer experience. shout out to ixartz for his next.js boilerplate which inspired this project.
 
 This boilerplate reflects a high standard of software development practices, ensuring a scalable, maintainable, and high-performance application. The author has meticulously selected and integrated each tool and library to optimize the developer experience and code quality.
 
@@ -26,11 +26,18 @@ This boilerplate reflects a high standard of software development practices, ens
 - **Vitest**: Unit testing framework.
 - **Next-Intl**: for easy Internalization.
 
-## Getting Started
+### Commit Message Format
+
+The project enforces Conventional Commits specification. This means that all your commit messages must be formatted according to the specification. To help you write commit messages, the project uses Commitizen, an interactive CLI that guides you through the commit process. To use it, run the following command:
+
+```shell
+npm run commit
+```
+One of the benefits of using Conventional Commits is that it allows us to automatically generate a `CHANGELOG` file. It also allows us to automatically determine the next version number based on the types of commits that are included in a release.
 
 ### Requirements
 
-- Node.js 20+ and pnpm
+- Node.js 20+ and npm
 
 ### Installation
 
@@ -51,7 +58,7 @@ Open http://localhost:3000 with your favorite browser to see your project.
 
 ### Set up authentication
 
-Create a Clerk account at [Clerk.com](https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate) and create a new application in Clerk Dashboard. Then, copy `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY` and `CLERK_SECRET_KEY` into `.env.local` file (not tracked by Git):
+Create a Clerk account at Clerk.com and create a new application in Clerk Dashboard. Then, copy `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY` and `CLERK_SECRET_KEY` into `.env.local` file (not tracked by Git):
 
 ```shell
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_pub_key
@@ -62,9 +69,9 @@ Now, you have a fully working authentication system with Next.js: Sign up, Sign 
 
 ### Set up remote database
 
-The project uses DrizzleORM, a type-safe ORM compatible with SQLite, PostgreSQL, and MySQL databases. By default, the project is set up to work seamlessly with libSQL, and for production purposes, it's integrated with [Turso](https://turso.tech/?utm_source=nextjsstarterbp). The Next.js Boilerplate also enables a smooth transition to an alternative database provider if your project requires it.
+The project uses DrizzleORM, a type-safe ORM compatible with SQLite, PostgreSQL, and MySQL databases. By default, the project is set up to work seamlessly with libSQL, and for production purposes, it's integrated with Turso. The Boilerplate also enables a smooth transition to an alternative database provider if your project requires it.
 
-First, you need to create a Turso account at [Turso.tech](https://turso.tech/?utm_source=nextjsstarterbp) and install the Turso CLI:
+First, you need to create a Turso account at Turso.tech and install the Turso CLI:
 
 ```shell
 brew install tursodatabase/tap/turso
@@ -97,9 +104,9 @@ turso db tokens create nextjs-boilerplate
 
 ### Translation (i18n) setup
 
-For translation, the project uses `next-intl` combined with [Crowdin](https://l.crowdin.com/next-js). As a developer, you only need to take care of the English (or another default language) version. Other languages are automatically generated and handled by Crowdin. You can use Crowdin to collaborate with your translation team or translate the messages yourself with the help of machine translation.
+For translation, the project uses `next-intl` combined with Crowdin. As a developer, you only need to take care of the English (or another default language) version. Other languages are automatically generated and handled by Crowdin. You can use Crowdin to collaborate with your translation team or translate the messages yourself with the help of machine translation.
 
-To set up translation (i18n), create an account at [Crowdin.com](https://l.crowdin.com/next-js) and create a new project. In the newly created project, you will able to find the project ID. You'll also require to create a new Personal Access Tokens by going to Account Settings > API. Then, in your GitHub Actions, you need to define the following environment variables `CROWDIN_PROJECT_ID` and `CROWDIN_PERSONAL_TOKEN`.
+To set up translation (i18n), create an account at Crowdin.com and create a new project. In the newly created project, you will able to find the project ID. You'll also require to create a new Personal Access Tokens by going to Account Settings > API. Then, in your GitHub Actions, you need to define the following environment variables `CROWDIN_PROJECT_ID` and `CROWDIN_PERSONAL_TOKEN`.
 
 After defining the environment variables in your GitHub Actions, your localization files will be synchronized with Crowdin everytime you push a new commit to the `main` branch.
 
@@ -135,7 +142,7 @@ After defining the environment variables in your GitHub Actions, your localizati
 
 ### Customization
 
-You can easily configure Next js Boilerplate by making a search in the whole project with `FIXME:` for making quick customization. Here is some of the most important files to customize:
+You can easily configure the Boilerplate by making a search in the whole project with `FIXME:` for making quick customization. Here is some of the most important files to customize:
 
 - `public/apple-touch-icon.png`, `public/favicon.ico`, `public/favicon-16x16.png` and `public/favicon-32x32.png`: your website favicon, you can generate from https://favicon.io/favicon-converter/
 - `src/utils/AppConfig.ts`: configuration file
@@ -143,17 +150,6 @@ You can easily configure Next js Boilerplate by making a search in the whole pro
 - `next.config.mjs`: Next.js configuration
 - `.env`: default environment variables
 
-You have access to the whole code source if you need further customization. The provided code is only example for you to start your project. The sky is the limit 🚀.
-
-### Commit Message Format
-
-The project enforces [Conventional Commits](https://www.conventionalcommits.org/) specification. This means that all your commit messages must be formatted according to the specification. To help you write commit messages, the project uses [Commitizen](https://github.com/commitizen/cz-cli), an interactive CLI that guides you through the commit process. To use it, run the following command:
-
-```shell
-npm run commit
-```
-
-One of the benefits of using Conventional Commits is that it allows us to automatically generate a `CHANGELOG` file. It also allows us to automatically determine the next version number based on the types of commits that are included in a release.
 
 ### Testing
 
@@ -216,15 +212,10 @@ You also need to defined the environment variables `CLERK_SECRET_KEY` using your
 
 The command starts a local server with the production build. Then, you can now open http://localhost:3000 with your favorite browser to see the project.
 
-### Error Monitoring
-
-The project uses [Sentry](https://sentry.io/for/nextjs/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo) to monitor errors. For development environment, you don't need to do anything: Next.js Boilerplate is already configured to use Sentry and Spotlight (Sentry for Development). All errors will be automatically sent to your local Spotlight instance. So, you can try the Sentry experience locally.
-
-For production environment, you need to create a Sentry account and create a new project. Then, in `next.config.mjs`, you need to update the `org` and `project` attribute in `withSentryConfig` function. You also need to add your Sentry DSN in `sentry.client.config.ts`, `sentry.edge.config.ts` and `sentry.server.config.ts`.
 
 ### Code coverage
 
-Next.js Boilerplate relies on [Codecov](https://about.codecov.io/codecov-free-trial/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo) for code coverage reporting solution. To use Codecov, create a Codecov account and connect it to your GitHub account. On your Codecov dashboard, it should display a list of your repositories. Select the repository you want to enable Codecov for and copy the token. Then, in your GitHub Actions, you need to define the `CODECOV_TOKEN` environment variable and paste the token you copied.
+Boilerplate relies on Codecov for code coverage reporting solution. To use Codecov, create a Codecov account and connect it to your GitHub account. On your Codecov dashboard, it should display a list of your repositories. Select the repository you want to enable Codecov for and copy the token. Then, in your GitHub Actions, you need to define the `CODECOV_TOKEN` environment variable and paste the token you copied.
 
 Be sure to create the `CODECOV_TOKEN` as a Github Actions secret, do not paste it directly into your source code.
 
@@ -265,7 +256,9 @@ npm run db:studio
 ```
 
 Then, you can open https://local.drizzle.studio with your favorite browser to explore your database.
-Licensed under the MIT License, Copyright © 2024
+
+
+## Licensed under the MIT License, Copyright © 2024
 
 
 
