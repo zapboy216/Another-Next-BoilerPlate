@@ -7,7 +7,7 @@ The Vercel Next Dinan Boilerplate is a comprehensive starting point for developi
 ## Features  
 
 - **Next.js with App Router**: Modern file-based routing and server-rendering framework.
-- **React ChatBotify**: AI chatbot assistant
+- **React AI ChatBotify**: AI chatbot assistant
 - **TypeScript**: Strict typing for a more reliable codebase.
 - **Clerk**: Authentication and authorization services.
 - **Turso DB**: Fast, globally distributed database.
@@ -23,6 +23,7 @@ The Vercel Next Dinan Boilerplate is a comprehensive starting point for developi
 - **Playwright**: End-to-end testing framework.
 - **Commitizen**: Conventional commit messages.
 - **Vitest**: Unit testing framework.
+- **Next-Intl**: for easy Internalization.
 
 ## Getting Started
 
@@ -32,14 +33,14 @@ The Vercel Next Dinan Boilerplate is a comprehensive starting point for developi
 
 ### Installation
 
-Clone the repository and install dependencies:
+- **Clone the repository and install dependencies**:
 
 ```shell
 git clone --depth=1 https://github.com/zapboy216/Vercel-Next-Dinan-Boilerplate.git my-project-name
 cd my-project-name
 pnpm install
 ```
-Run the development server:
+## Run the development server:
 
 shell
 
@@ -56,7 +57,7 @@ shell
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_pub_key
 CLERK_SECRET_KEY=your_clerk_secret_key
 
-Database Setup
+## Database Setup
 
     Create a Turso account and install the Turso CLI:
 
@@ -75,7 +76,7 @@ turso db create nextjs-boilerplate
 
 shell
 
-# .env
+## .env
 DATABASE_URL=libsql://RANDOM-CHARS-DB-NAME-ORG-NAME.turso.io
 
     Add DATABASE_AUTH_TOKEN to .env.local:
@@ -84,12 +85,10 @@ shell
 
 turso db tokens create nextjs-boilerplate
 
-# .env.local
+## .env.local
 DATABASE_AUTH_TOKEN=your-auth-token
 
-Project Structure
-
-plaintext
+## Project Structure
 
 .
 ├── README.md
@@ -117,9 +116,10 @@ plaintext
 ├── tailwind.config.js
 └── tsconfig.json
 
+
 Customization
 
-Look for FIXME: comments throughout the project to make quick customizations. Key files to modify include:
+Search for a FIXME: comments throughout the project to make quick customizations. Key files to modify include:
 
     public/apple-touch-icon.png, public/favicon.ico, etc.: Customize your favicon.
     src/utils/AppConfig.ts: Configuration settings.
