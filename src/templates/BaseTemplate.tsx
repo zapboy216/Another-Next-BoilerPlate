@@ -1,6 +1,5 @@
 'use client';
 
-import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import React, { useState } from 'react';
 import ChatBot from 'react-chatbotify';
@@ -22,37 +21,36 @@ const BaseTemplate = (props: {
 
   return (
     <div className="w-full text-gray-700 antialiased">
-      <div className="mx-20 max-w-screen-md lg:max-w-full">
-        <header className="border-none">
-          <div className="flex items-center justify-between py-4">
-            <div className="flex items-center space-x-4">
-              <Image
-                src={t('logo_image_url')}
-                alt={t('logo_image_alt')}
-                width={200}
-                height={125}
-                className="rounded-lg shadow-lg"
-              />
+      <div className="mx-4 max-w-screen-md sm:mx-8 md:mx-8 lg:mx-20 lg:max-w-full">
+        <header className="mx-10 border-none">
+          <div className="flex items-center justify-between py-4 md:py-5 lg:py-6">
+            <div className="flex items-center space-x-4 md:space-x-6 lg:space-x-7">
               <div>
-                <h1 className="text-4xl font-bold text-gray-900">
+                <h1 className="text-2xl font-bold text-gray-900 sm:text-3xl md:text-4xl lg:text-5xl">
                   {AppConfig.name}
                 </h1>
-                <h2 className="text-xl">{t('description')}</h2>
+                <h2 className="text-lg sm:text-xl md:text-2xl">
+                  {t('description')}
+                </h2>
               </div>
             </div>
-            <div className="lg:hidden">
-              <MenuButton
-                onClick={toggleMobileMenu}
-                isOpen={isMobileMenuOpen}
-              />
+            <div className="flex items-center space-x-2 sm:space-x-4 md:space-x-6">
+              <div className="lg:hidden">
+                <MenuButton
+                  onClick={toggleMobileMenu}
+                  isOpen={isMobileMenuOpen}
+                />
+              </div>
+              <nav
+                className={`lg:flex ${isMobileMenuOpen ? 'block' : 'hidden'}`}
+              >
+                <ul className="flex flex-col lg:flex-row lg:space-x-7">
+                  {props.leftNav}
+                  {props.rightNav}
+                </ul>
+              </nav>
             </div>
           </div>
-          <nav className={`lg:flex ${isMobileMenuOpen ? 'block' : 'hidden'}`}>
-            <ul className="ml-20 flex flex-col lg:flex-row lg:space-x-4">
-              {props.leftNav}
-              {props.rightNav}
-            </ul>
-          </nav>
         </header>
         <main>{props.children}</main>
         <ChatBot />
