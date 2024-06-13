@@ -36,7 +36,7 @@ The Vercel Next Dinan Boilerplate is a comprehensive starting point for developi
 - **Clone the repository and install dependencies**:
 
 ```shell
-git clone --depth=1 https://github.com/zapboy216/Vercel-Next-Dinan-Boilerplate.git my-project-name
+git clone https://github.com/zapboy216/Vercel-Next-Dinan-Boilerplate.git my-project-name
 cd my-project-name
 pnpm install
 ```
@@ -86,36 +86,9 @@ turso db tokens create nextjs-boilerplate
 ## .env.local
 DATABASE_AUTH_TOKEN=your-auth-token
 
-## Project Structure
-
-.
-├── README.md
-├── .github
-├── .husky
-├── .storybook
-├── .vscode
-├── migrations
-├── public
-├── scripts
-├── src
-│   ├── app
-│   ├── components
-│   ├── libs
-│   ├── locales
-│   ├── models
-│   ├── styles
-│   ├── templates
-│   ├── types
-│   └── utils
-│   └── validations
-├── tests
-│   ├── e2e
-│   └── integration
-├── tailwind.config.js
-└── tsconfig.json
 
 
-Customization
+## Customization
 
 Search for a FIXME: comments throughout the project to make quick customizations. Key files to modify include:
 
@@ -125,7 +98,7 @@ Search for a FIXME: comments throughout the project to make quick customizations
     next.config.mjs: Next.js configuration.
     .env: Environment variables.
 
-Commit Message Format
+## Commit Message Format
 
 Use Commitizen for conventional commit messages:
 
@@ -171,8 +144,6 @@ Checkly Monitoring
 Set up monitoring with Checkly. Create an account, generate an API key, and set CHECKLY_API_KEY and CHECKLY_ACCOUNT_ID in GitHub Actions.
 Contributions
 
-We welcome contributions! Feel free to open an issue or submit a pull request.
-License
 
 Licensed under the MIT License © 2024
 
