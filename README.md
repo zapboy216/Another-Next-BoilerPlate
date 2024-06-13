@@ -42,7 +42,7 @@ pnpm install
 ```
 ## Run the development server:
 
-shell
+
 
 pnpm run dev
 
@@ -52,7 +52,6 @@ Authentication Setup
     Create a Clerk account and a new application in the Clerk Dashboard.
     Copy NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY and CLERK_SECRET_KEY into your .env.local file:
 
-shell
 
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_pub_key
 CLERK_SECRET_KEY=your_clerk_secret_key
