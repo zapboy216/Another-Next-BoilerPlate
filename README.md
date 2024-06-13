@@ -57,15 +57,14 @@ NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_pub_key
 CLERK_SECRET_KEY=your_clerk_secret_key
 
 ## Database Setup
-
-    Create a Turso account and install the Turso CLI:
+Create a Turso account and install the Turso CLI:
 
 shell
 
-brew install tursodatabase/tap/turso
-turso auth signup
+  brew install tursodatabase/tap/turso
+  turso auth signup
 
-    Create a new database:
+Create a new database:
 
 shell
 
