@@ -16,7 +16,6 @@ This boilerplate reflects a high standard of software development practices, ens
 - **Drizzle ORM**: Type-safe ORM compatible with SQLite, PostgreSQL, and MySQL.
 - **React Player**: Media player for handling video and audio content.
 - **Tailwind CSS & Tailwind Animate**: Utility-first CSS framework with animation support.
-- **React ChatBotify**: AI-powered chatbot integration.
 - **Checkly**: Monitoring and end-to-end testing.
 - **Husky**: Git hooks for maintaining code quality.
 - **ESLint**: Linting with strict rules for consistent code.
@@ -266,10 +265,6 @@ npm run db:studio
 ```
 
 Then, you can open https://local.drizzle.studio with your favorite browser to explore your database.
-
-
-
-
 Licensed under the MIT License, Copyright © 2024
 
 
