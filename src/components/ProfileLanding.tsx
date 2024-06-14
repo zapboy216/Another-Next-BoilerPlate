@@ -65,17 +65,17 @@ const ProfileLanding: React.FC<ProfileLandingProps> = ({ translationsKey }) => {
               </div>
               <div>
                 <h1 className="text-4xl font-bold">{t('name')}</h1>
-                <h2 className="mb-4 text-2xl">{t('title')}</h2>
+                <h2 className="mb-4 text-2xl">{t('splash_landing')}</h2>
                 <p className="text-lg">{t('paragraph_one')}</p>
               </div>
             </div>
             <div className="mt-8">
               <h3 className="mb-4 text-2xl font-bold">{t('paragraph_two')}</h3>
               <p className="text-lg">
-                <strong>{t('phone')}:</strong> {t('phone_number')}
+                <strong>PHONE:</strong> {t('phone')}
               </p>
               <p className="text-lg">
-                <strong>{t('email')}:</strong> {t('email_address')}
+                <strong>EMAIL:</strong> {t('email')}
               </p>
               <div className="mt-4 flex justify-center space-x-4">
                 <a
