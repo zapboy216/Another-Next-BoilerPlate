@@ -1,6 +1,6 @@
 import { getTranslations } from 'next-intl/server';
 
-import Landing from '@/components/Landing';
+import ProfileLanding from '@/components/ProfileLanding';
 
 export async function generateMetadata(props: { params: { locale: string } }) {
   const t = await getTranslations({
@@ -15,5 +15,5 @@ export async function generateMetadata(props: { params: { locale: string } }) {
 }
 
 export default function Diamonds() {
-  return <Landing translationsKey="Diamonds" />;
+  return <ProfileLanding translationsKey="Diamonds" />;
 }

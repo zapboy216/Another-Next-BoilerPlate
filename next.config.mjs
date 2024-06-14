@@ -22,6 +22,10 @@ export default bundleAnalyzer(
           protocol: 'https',
           hostname: 'via.placeholder.com',
         },
+        {
+          protocol: 'https',
+          hostname: 'unpkg.com',
+        },
       ],
     },
     eslint: {
