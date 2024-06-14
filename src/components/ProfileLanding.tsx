@@ -56,7 +56,7 @@ const ProfileLanding: React.FC<ProfileLandingProps> = ({ translationsKey }) => {
             <div className="flex flex-col items-center md:flex-row">
               <div className="mb-4 shrink-0 md:mb-0 md:mr-6">
                 <Image
-                  src={t('hero_image_url')}
+                  src={t('profile_image_url')}
                   alt="Profile Picture"
                   width={200}
                   height={200}
@@ -64,20 +64,18 @@ const ProfileLanding: React.FC<ProfileLandingProps> = ({ translationsKey }) => {
                 />
               </div>
               <div>
-                <h1 className="text-4xl font-bold">{t('profile_name')}</h1>
-                <h2 className="mb-4 text-2xl">{t('profile_title')}</h2>
-                <p className="text-lg">{t('profile_description')}</p>
+                <h1 className="text-4xl font-bold">{t('name')}</h1>
+                <h2 className="mb-4 text-2xl">{t('title')}</h2>
+                <p className="text-lg">{t('paragraph_one')}</p>
               </div>
             </div>
             <div className="mt-8">
-              <h3 className="mb-4 text-2xl font-bold">
-                {t('contact_information')}
-              </h3>
+              <h3 className="mb-4 text-2xl font-bold">{t('paragraph_two')}</h3>
               <p className="text-lg">
-                <strong>{t('phone_label')}:</strong> {t('phone_number')}
+                <strong>{t('phone')}:</strong> {t('phone_number')}
               </p>
               <p className="text-lg">
-                <strong>{t('email_label')}:</strong> {t('email_address')}
+                <strong>{t('email')}:</strong> {t('email_address')}
               </p>
               <div className="mt-4 flex justify-center space-x-4">
                 <a
