@@ -66,28 +66,28 @@ const Landing: React.FC<LandingProps> = ({ translationsKey }) => {
                 className="rounded-lg bg-gray-800 bg-opacity-80 p-6 text-left"
               >
                 <h2 className="text-2xl font-bold">Hearts</h2>
-                <p className="mt-2 text-lg">{t('card_paragraph_1')}</p>
+                <p className="mt-2 text-lg">{t('paragraph_one')}</p>
               </a>
               <a
                 href="/diamonds"
                 className="rounded-lg bg-gray-800 bg-opacity-80 p-6 text-left"
               >
                 <h2 className="text-2xl font-bold">Diamonds</h2>
-                <p className="mt-2 text-lg">{t('card_paragraph_2')}</p>
+                <p className="mt-2 text-lg">{t('paragraph_two')}</p>
               </a>
               <a
                 href="/spades"
                 className="rounded-lg bg-gray-800 bg-opacity-80 p-6 text-left"
               >
                 <h2 className="text-2xl font-bold">Spades</h2>
-                <p className="mt-2 text-lg">{t('card_paragraph_3')}</p>
+                <p className="mt-2 text-lg">{t('paragraph_three')}</p>
               </a>
               <a
                 href="/clubs"
                 className="rounded-lg bg-gray-800 bg-opacity-80 p-6 text-left"
               >
                 <h2 className="text-2xl font-bold">Clubs</h2>
-                <p className="mt-2 text-lg">{t('card_paragraph_4')}</p>
+                <p className="mt-2 text-lg">{t('paragraph_four')}</p>
               </a>
             </div>
           </div>
