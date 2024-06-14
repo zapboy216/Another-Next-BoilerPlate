@@ -4,18 +4,32 @@ import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import React from 'react';
 
-interface PortfolioLandingProps {
+interface LandingProps {
   translationsKey: string;
 }
 
-const PortfolioLanding: React.FC<PortfolioLandingProps> = ({
-  translationsKey,
-}) => {
+const Landing: React.FC<LandingProps> = ({ translationsKey }) => {
   const t = useTranslations(translationsKey);
+  const isMobile = typeof window !== 'undefined' && window.innerWidth <= 768;
 
-  return (
-    <div className="relative min-h-screen w-full overflow-auto">
-      {/* Background */}
+  const renderBackground = () => {
+    if (isMobile) {
+      return (
+        <div className="absolute left-0 top-0 size-full bg-gradient-to-r from-blue-500 to-purple-500" />
+      );
+    }
+    if (t('backgroundVideoUrl')) {
+      return (
+        <video
+          className="absolute left-0 top-0 size-full object-cover"
+          src={t('backgroundVideoUrl')}
+          autoPlay
+          loop
+          muted
+        />
+      );
+    }
+    return (
       <Image
         className="absolute left-0 top-0 size-full object-cover"
         src={t('backgroundImageUrl')}
@@ -23,6 +37,13 @@ const PortfolioLanding: React.FC<PortfolioLandingProps> = ({
         layout="fill"
         objectFit="cover"
       />
+    );
+  };
+
+  return (
+    <div className="relative min-h-screen w-full overflow-auto">
+      {/* Background */}
+      {renderBackground()}
 
       {/* Overlay */}
       <div className="absolute left-0 top-0 size-full bg-black opacity-50" />
@@ -33,35 +54,49 @@ const PortfolioLanding: React.FC<PortfolioLandingProps> = ({
           {/* Glass Panel */}
           <div className="m-10 rounded-lg bg-white bg-opacity-10 p-8 backdrop-blur-md">
             <h1 className="animate-fade-in-bottom mb-4 text-4xl font-bold md:text-4xl">
-              {t('splash_heading_one')}
+              {t('splash_landing')}
             </h1>
-            <h2 className="animate-fade-in-bottom mb-8 text-2xl md:text-4xl">
-              {t('splash_heading_one')}
-            </h2>
-
             <p className="animate-fade-in-bottom mb-4 text-lg md:text-xl">
               {t('paragraph_one')}
             </p>
-            <p className="animate-fade-in-bottom mb-4 text-lg md:text-xl">
-              {t('paragraph_two')}
-            </p>
-
-            <a
-              href="./contact"
-              className="animate-fade-in-bottom rounded bg-blue-500 px-4 py-2 font-bold text-white hover:bg-blue-700"
-            >
-              {t('heading_two')}
-            </a>
-            <p>{t('paragraph_three')}</p>
-            <p>{t('paragraph_four')}</p>
-            <p>{t('paragraph_five')}</p>
+            {/* Glass Cards */}
+            <div className="grid gap-4 sm:grid-cols-2">
+              <a
+                href="/hearts"
+                className="rounded-lg bg-gray-800 bg-opacity-80 p-6 text-left"
+              >
+                <h2 className="text-2xl font-bold">Hearts</h2>
+                <p className="mt-2 text-lg">{t('card_paragraph_1')}</p>
+              </a>
+              <a
+                href="/diamonds"
+                className="rounded-lg bg-gray-800 bg-opacity-80 p-6 text-left"
+              >
+                <h2 className="text-2xl font-bold">Diamonds</h2>
+                <p className="mt-2 text-lg">{t('card_paragraph_2')}</p>
+              </a>
+              <a
+                href="/spades"
+                className="rounded-lg bg-gray-800 bg-opacity-80 p-6 text-left"
+              >
+                <h2 className="text-2xl font-bold">Spades</h2>
+                <p className="mt-2 text-lg">{t('card_paragraph_3')}</p>
+              </a>
+              <a
+                href="/clubs"
+                className="rounded-lg bg-gray-800 bg-opacity-80 p-6 text-left"
+              >
+                <h2 className="text-2xl font-bold">Clubs</h2>
+                <p className="mt-2 text-lg">{t('card_paragraph_4')}</p>
+              </a>
+            </div>
           </div>
           {/* End Glass Panel */}
         </div>
         <div className="mt-8 flex-1 md:ml-8 md:mt-0">
           <Image
             src={t('hero_image_url')}
-            alt="Dummy Attorney"
+            alt="Hero"
             width={400}
             height={400}
             className="mt-10 w-full max-w-xs md:max-w-sm lg:max-w-md"
@@ -72,4 +107,4 @@ const PortfolioLanding: React.FC<PortfolioLandingProps> = ({
   );
 };
 
-export default PortfolioLanding;
+export default Landing;
