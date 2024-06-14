@@ -1,7 +1,6 @@
-import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
 
-import EightCards from '@/components/component/eight-cards';
+import PortfolioLanding from '@/components/PortfolioLanding';
 
 export async function generateMetadata(props: { params: { locale: string } }) {
   const t = await getTranslations({
@@ -15,10 +14,6 @@ export async function generateMetadata(props: { params: { locale: string } }) {
   };
 }
 
-const Portfolio = () => {
-  const t = useTranslations('Portfolio');
-
-  return <EightCards />;
-};
-
-export default Portfolio;
+export default function Portfolio() {
+  return <PortfolioLanding translationsKey="Portfolio" />;
+}
