@@ -71,17 +71,25 @@ const ProfileLanding: React.FC<ProfileLandingProps> = ({ translationsKey }) => {
                 </Suspense>
               </div>
               <div>
-                <h1 className="text-4xl font-bold">{t('name')}</h1>
-                <h2 className="mb-4 text-2xl">{t('splash_landing')}</h2>
-                <p className="text-lg">{t('paragraph_one')}</p>
+                <h1 className="animate-fade-in-down text-4xl font-bold">
+                  {t('name')}
+                </h1>
+                <h2 className="animate-fade-in-up mb-4 text-2xl">
+                  {t('splash_landing')}
+                </h2>
+                <p className="animate-fade-in-down text-lg">
+                  {t('paragraph_one')}
+                </p>
               </div>
             </div>
             <div className="mt-8">
-              <h3 className="mb-4 text-2xl font-bold">{t('paragraph_two')}</h3>
-              <p className="text-lg">
+              <h3 className="animate-fade-in-down mb-4 text-2xl font-bold">
+                {t('paragraph_two')}
+              </h3>
+              <p className="animate-fade-in-down text-lg">
                 <strong>PHONE:</strong> {t('phone')}
               </p>
-              <p className="text-lg">
+              <p className="animate-fade-in-down text-lg">
                 <strong>EMAIL:</strong> {t('email')}
               </p>
               <div className="mt-4 flex justify-center space-x-4">
@@ -136,7 +144,7 @@ const ProfileLanding: React.FC<ProfileLandingProps> = ({ translationsKey }) => {
               alt="Hero"
               width={400}
               height={400}
-              className="mt-10 w-full max-w-xs md:max-w-sm lg:max-w-md"
+              className="hero-image mt-10 w-full max-w-xs md:max-w-sm lg:max-w-md"
             />
           </Suspense>
         </div>

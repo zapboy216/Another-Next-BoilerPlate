@@ -120,13 +120,13 @@ const ContactFormLanding: React.FC<ContactFormLandingProps> = ({
                 </svg>
               </a>
             </div>
-            <h1 className="animate-fade-in-bottom mb-4 text-4xl font-bold md:text-4xl">
+            <h1 className="animate-fade-in-down mb-4 text-4xl font-bold md:text-3xl">
               {t('splash_landing')}
             </h1>
-            <p className="animate-fade-in-bottom mb-4 text-lg md:text-xl">
+            <p className="animate-fade-in-up mb-4 text-lg md:text-xl">
               {t('paragraph_one')}
             </p>
-            <p className="animate-fade-in-bottom mb-4 text-lg md:text-xl">
+            <p className="animate-fade-in-down mb-4 text-lg md:text-xl">
               {t('paragraph_two')}
             </p>
 
@@ -137,7 +137,7 @@ const ContactFormLanding: React.FC<ContactFormLandingProps> = ({
               >
                 <div className="mb-4">
                   <label
-                    className="mb-2 block text-sm font-bold text-white"
+                    className="animate-fade-in-up mb-2 block text-sm font-bold text-white"
                     htmlFor="name"
                   >
                     {t('name')}
@@ -154,7 +154,7 @@ const ContactFormLanding: React.FC<ContactFormLandingProps> = ({
                 </div>
                 <div className="mb-4">
                   <label
-                    className="mb-2 block text-sm font-bold text-white"
+                    className="animate-fade-in-down mb-2 block text-sm font-bold text-white"
                     htmlFor="email"
                   >
                     {t('email')}
@@ -171,7 +171,7 @@ const ContactFormLanding: React.FC<ContactFormLandingProps> = ({
                 </div>
                 <div className="mb-4">
                   <label
-                    className="mb-2 block text-sm font-bold text-white"
+                    className="animate-fade-in-down mb-2 block text-sm font-bold text-white"
                     htmlFor="message"
                   >
                     {t('message')}
@@ -188,7 +188,7 @@ const ContactFormLanding: React.FC<ContactFormLandingProps> = ({
                 <div className="mb-4">
                   <button
                     type="submit"
-                    className="focus:shadow-outline w-full rounded bg-blue-500 px-4 py-2 font-bold text-white hover:bg-blue-700 focus:outline-none"
+                    className="animate-fade-in-down focus:shadow-outline w-full rounded bg-blue-500 px-4 py-2 font-bold text-white hover:bg-blue-700 focus:outline-none"
                   >
                     {t('submit')}
                   </button>
@@ -205,7 +205,7 @@ const ContactFormLanding: React.FC<ContactFormLandingProps> = ({
               alt="Hero"
               width={400}
               height={400}
-              className="mt-10 w-full max-w-xs md:max-w-sm lg:max-w-md"
+              className="hero-image mt-10 w-full max-w-xs md:max-w-sm lg:max-w-md"
             />
           </Suspense>
         </div>

@@ -58,29 +58,36 @@ const Landing: React.FC<LandingProps> = ({ translationsKey }) => {
         <div className="flex-1">
           {/* Glass Panel */}
           <div className="glass-panel m-10">
-            <h1 className="animate-fade-in-bottom mb-4 text-4xl font-bold md:text-4xl">
+            <h1 className="animate-fade-in-down mb-4 text-4xl font-bold md:text-4xl">
               {t('splash_landing')}
             </h1>
-            <h2 className="animate-fade-in-bottom mb-8 text-2xl md:text-4xl">
+            <h2 className="animate-fade-in-up mb-8 text-2xl md:text-3xl">
               {t('heading_one')}
             </h2>
 
-            <p className="animate-fade-in-bottom mb-4 text-lg md:text-xl">
+            <p className="animate-fade-in-up mb-4 text-lg md:text-xl">
               {t('paragraph_one')}
             </p>
-            <p className="animate-fade-in-bottom mb-4 text-lg md:text-xl">
+            <p className="animate-fade-in-down mb-4 text-lg md:text-xl">
               {t('paragraph_two')}
+            </p>
+            <p className="animate-fade-in-down mb-4 text-lg md:text-xl">
+              {t('paragraph_three')}
+            </p>
+            <p className="animate-fade-in-up mb-4 text-lg md:text-xl">
+              {t('paragraph_four')}
             </p>
 
             <a
               href="./contact"
-              className="animate-fade-in-bottom rounded bg-blue-500 px-4 py-2 font-bold text-white hover:bg-blue-700"
+              className="animate-fade-in-down rounded bg-blue-500 px-4 py-2 font-bold text-white hover:bg-blue-700"
             >
-              {t('heading_two')}
+              {t('label')}
             </a>
-            <p>{t('paragraph_three')}</p>
-            <p>{t('paragraph_four')}</p>
-            <p>{t('paragraph_five')}</p>
+
+            <p className="animate-fade-in-down mb-4 text-lg md:text-xl">
+              {t('paragraph_five')}
+            </p>
           </div>
           {/* End Glass Panel */}
         </div>
@@ -91,7 +98,7 @@ const Landing: React.FC<LandingProps> = ({ translationsKey }) => {
               alt="Hero"
               width={400}
               height={400}
-              className="mt-10 w-full max-w-xs md:max-w-sm lg:max-w-md"
+              className="hero-image mt-10 w-full max-w-xs md:max-w-sm lg:max-w-md"
             />
           </Suspense>
         </div>

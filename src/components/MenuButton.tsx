@@ -1,22 +1,22 @@
-// src/components/MenuButton.tsx
+// MenuButton.tsx
 
 'use client';
 
 import React from 'react';
 
-interface MenuButtonProps {
+const MenuButton = ({
+  onClick,
+  isOpen,
+}: {
   onClick: () => void;
   isOpen: boolean;
-}
-
-const MenuButton: React.FC<MenuButtonProps> = ({ onClick, isOpen }) => {
+}) => {
   return (
     <button
-      type="button"
       onClick={onClick}
-      className="text-gray-900 focus:outline-none"
-      aria-label={isOpen ? 'Close menu' : 'Open menu'}
-      aria-expanded={isOpen}
+      className={`rounded p-2 focus:outline-none ${
+        isOpen ? 'text-white' : 'text-black dark:text-white'
+      }`}
     >
       <svg
         className="size-6"
@@ -29,7 +29,7 @@ const MenuButton: React.FC<MenuButtonProps> = ({ onClick, isOpen }) => {
           strokeLinecap="round"
           strokeLinejoin="round"
           strokeWidth="2"
-          d="M4 6h16M4 12h16m-7 6h7"
+          d={isOpen ? 'M6 18L18 6M6 6l12 12' : 'M4 6h16M4 12h16m-7 6h7'}
         />
       </svg>
     </button>

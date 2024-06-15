@@ -4,7 +4,9 @@ import { useTranslations } from 'next-intl';
 import React, { useState } from 'react';
 import ChatBot from 'react-chatbotify';
 
+import LocaleSwitcher from '@/components/LocaleSwitcher';
 import MenuButton from '@/components/MenuButton';
+import ThemeToggle from '@/components/ThemeToggle';
 import { AppConfig } from '@/utils/AppConfig';
 
 const BaseTemplate = (props: {
@@ -26,10 +28,10 @@ const BaseTemplate = (props: {
           <div className="flex items-center justify-between py-4 md:py-5 lg:py-6">
             <div className="flex items-center space-x-4 md:space-x-6 lg:space-x-7">
               <div>
-                <h1 className="text-2xl font-bold text-gray-900 sm:text-3xl md:text-4xl lg:text-5xl">
+                <h1 className="text-2xl font-bold text-gray-900 dark:text-white sm:text-3xl md:text-4xl lg:text-5xl">
                   {AppConfig.name}
                 </h1>
-                <h2 className="text-lg sm:text-xl md:text-2xl">
+                <h2 className="text-lg dark:text-gray-300 sm:text-xl md:text-2xl">
                   {t('description')}
                 </h2>
               </div>
@@ -44,15 +46,17 @@ const BaseTemplate = (props: {
               <nav
                 className={`lg:flex ${isMobileMenuOpen ? 'block' : 'hidden'}`}
               >
-                <ul className="flex flex-col lg:flex-row lg:space-x-7">
+                <ul className="flex flex-col space-y-2 lg:flex-row lg:space-x-7 lg:space-y-0">
                   {props.leftNav}
                   {props.rightNav}
                 </ul>
               </nav>
+              <LocaleSwitcher />
+              <ThemeToggle />
             </div>
           </div>
         </header>
-        <main>{props.children}</main>
+        <main className="main-content">{props.children}</main>
         <ChatBot />
       </div>
     </div>

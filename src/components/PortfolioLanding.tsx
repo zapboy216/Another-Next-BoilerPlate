@@ -58,10 +58,10 @@ const Landing: React.FC<LandingProps> = ({ translationsKey }) => {
         <div className="flex-1">
           {/* Glass Panel */}
           <div className="glass-panel m-10">
-            <h1 className="animate-fade-in-bottom mb-4 text-4xl font-bold md:text-4xl">
+            <h1 className="animate-fade-in-down mb-4 text-4xl font-bold md:text-3xl">
               {t('splash_landing')}
             </h1>
-            <p className="animate-fade-in-bottom mb-4 text-lg md:text-xl">
+            <p className="animate-fade-in-up mb-4 text-lg md:text-xl">
               {t('paragraph_one')}
             </p>
             {/* Glass Cards */}
@@ -70,29 +70,43 @@ const Landing: React.FC<LandingProps> = ({ translationsKey }) => {
                 href="/hearts"
                 className="smoked-panel rounded-lg p-6 text-left"
               >
-                <h2 className="text-2xl font-bold">Hearts</h2>
-                <p className="mt-2 text-lg">{t('paragraph_one')}</p>
+                <h2 className="animate-fade-in-up text-2xl font-bold">
+                  Hearts
+                </h2>
+                <p className="animate-fade-in-down mt-2 text-lg">
+                  {t('paragraph_one')}
+                </p>
               </a>
               <a
                 href="/diamonds"
                 className="smoked-panel rounded-lg p-6 text-left"
               >
-                <h2 className="text-2xl font-bold">Diamonds</h2>
-                <p className="mt-2 text-lg">{t('paragraph_two')}</p>
+                <h2 className="animate-fade-in-up text-2xl font-bold">
+                  Diamonds
+                </h2>
+                <p className="animate-fade-in-down mt-2 text-lg">
+                  {t('paragraph_two')}
+                </p>
               </a>
               <a
                 href="/spades"
                 className="smoked-panel rounded-lg p-6 text-left"
               >
-                <h2 className="text-2xl font-bold">Spades</h2>
-                <p className="mt-2 text-lg">{t('paragraph_three')}</p>
+                <h2 className="animate-fade-in-up text-2xl font-bold">
+                  Spades
+                </h2>
+                <p className="animate-fade-in-down mt-2 text-lg">
+                  {t('paragraph_three')}
+                </p>
               </a>
               <a
                 href="/clubs"
                 className="smoked-panel rounded-lg p-6 text-left"
               >
-                <h2 className="text-2xl font-bold">Clubs</h2>
-                <p className="mt-2 text-lg">{t('paragraph_four')}</p>
+                <h2 className="animate-fade-in-up text-2xl font-bold">Clubs</h2>
+                <p className="animate-fade-in-down mt-2 text-lg">
+                  {t('paragraph_four')}
+                </p>
               </a>
             </div>
           </div>
@@ -105,7 +119,7 @@ const Landing: React.FC<LandingProps> = ({ translationsKey }) => {
               alt="Hero"
               width={400}
               height={400}
-              className="mt-10 w-full max-w-xs md:max-w-sm lg:max-w-md"
+              className="hero-image mt-10 w-full max-w-xs md:max-w-sm lg:max-w-md"
             />
           </Suspense>
         </div>
