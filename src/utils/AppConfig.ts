@@ -5,7 +5,12 @@ const localePrefix: LocalePrefix = 'as-needed';
 // FIXME: Update this configuration file based on your project information
 export const AppConfig = {
   name: 'COMPANY DX',
-  locales: ['en', 'fr', 'es'],
+  locales: ['en', 'es', 'fr'],
+  localeNames: {
+    en: 'English',
+    es: 'Spanish',
+    fr: 'French',
+  },
+  localePrefix: 'your-locale-prefix',
   defaultLocale: 'en',
-  localePrefix,
 };

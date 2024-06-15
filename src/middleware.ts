@@ -19,7 +19,6 @@ export default authMiddleware({
     return intlMiddleware(req);
   },
 
-  // eslint-disable-next-line consistent-return
   afterAuth(auth, req) {
     // Handle users who aren't authenticated
     if (!auth.userId && !auth.isPublicRoute) {
