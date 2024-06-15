@@ -1,12 +1,15 @@
 'use client';
 
-import Image from 'next/image';
 import { useTranslations } from 'next-intl';
-import React from 'react';
+import React, { lazy, Suspense } from 'react';
+
+import Loader from '@/app/Loader';
 
 interface LandingProps {
   translationsKey: string;
 }
+
+const LazyImage = lazy(() => import('next/image'));
 
 const Landing: React.FC<LandingProps> = ({ translationsKey }) => {
   const t = useTranslations(translationsKey);
@@ -30,13 +33,15 @@ const Landing: React.FC<LandingProps> = ({ translationsKey }) => {
       );
     }
     return (
-      <Image
-        className="absolute left-0 top-0 size-full object-cover"
-        src={t('backgroundImageUrl')}
-        alt="Background"
-        layout="fill"
-        objectFit="cover"
-      />
+      <Suspense fallback={<Loader />}>
+        <LazyImage
+          className="absolute left-0 top-0 size-full object-cover"
+          src={t('backgroundImageUrl')}
+          alt="Background"
+          layout="fill"
+          objectFit="cover"
+        />
+      </Suspense>
     );
   };
 
@@ -80,13 +85,15 @@ const Landing: React.FC<LandingProps> = ({ translationsKey }) => {
           {/* End Glass Panel */}
         </div>
         <div className="mt-8 flex-1 md:ml-8 md:mt-0">
-          <Image
-            src={t('hero_image_url')}
-            alt="Hero"
-            width={400}
-            height={400}
-            className="mt-10 w-full max-w-xs md:max-w-sm lg:max-w-md"
-          />
+          <Suspense fallback={<Loader />}>
+            <LazyImage
+              src={t('hero_image_url')}
+              alt="Hero"
+              width={400}
+              height={400}
+              className="mt-10 w-full max-w-xs md:max-w-sm lg:max-w-md"
+            />
+          </Suspense>
         </div>
       </div>
     </div>
