@@ -57,7 +57,7 @@ const Landing: React.FC<LandingProps> = ({ translationsKey }) => {
       <div className="relative z-10 flex flex-col items-center justify-center px-4 text-center text-white md:flex-row md:text-left">
         <div className="flex-1">
           {/* Glass Panel */}
-          <div className="m-10 rounded-lg bg-white bg-opacity-10 p-8 backdrop-blur-md">
+          <div className="glass-panel m-10">
             <h1 className="animate-fade-in-bottom mb-4 text-4xl font-bold md:text-4xl">
               {t('splash_landing')}
             </h1>

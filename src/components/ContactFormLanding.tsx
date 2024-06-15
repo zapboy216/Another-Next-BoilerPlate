@@ -1,13 +1,14 @@
 'use client';
 
-import Image from 'next/image';
 import { useTranslations } from 'next-intl';
-import React, { useState } from 'react';
+import React, { lazy, Suspense, useState } from 'react';
+
+import Loader from '@/app/Loader';
 
 interface ContactFormLandingProps {
   translationsKey: string;
 }
-
+const LazyImage = lazy(() => import('next/image'));
 const ContactFormLanding: React.FC<ContactFormLandingProps> = ({
   translationsKey,
 }) => {
@@ -53,13 +54,15 @@ const ContactFormLanding: React.FC<ContactFormLandingProps> = ({
       );
     }
     return (
-      <Image
-        className="absolute left-0 top-0 size-full object-cover"
-        src={t('backgroundImageUrl')}
-        alt="Background"
-        layout="fill"
-        objectFit="cover"
-      />
+      <Suspense fallback={<Loader />}>
+        <LazyImage
+          className="absolute left-0 top-0 size-full object-cover"
+          src={t('backgroundImageUrl')}
+          alt="Background"
+          layout="fill"
+          objectFit="cover"
+        />
+      </Suspense>
     );
   };
 
@@ -75,7 +78,7 @@ const ContactFormLanding: React.FC<ContactFormLandingProps> = ({
       <div className="relative z-10 flex flex-col items-center justify-center px-4 text-center text-white md:flex-row md:text-left">
         <div className="flex-1">
           {/* Glass Panel */}
-          <div className="m-10 rounded-lg bg-white bg-opacity-10 p-8 backdrop-blur-md">
+          <div className="glass-panel m-10">
             <div className="mb-4 flex justify-center space-x-4">
               <a
                 href="https://www.linkedin.com"
@@ -196,13 +199,15 @@ const ContactFormLanding: React.FC<ContactFormLandingProps> = ({
           {/* End Glass Panel */}
         </div>
         <div className="mt-8 flex-1 md:ml-8 md:mt-0">
-          <Image
-            src={t('hero_image_url')}
-            alt="Hero"
-            width={400}
-            height={400}
-            className="mt-10 w-full max-w-xs md:max-w-sm lg:max-w-md"
-          />
+          <Suspense fallback={<Loader />}>
+            <LazyImage
+              src={t('hero_image_url')}
+              alt="Hero"
+              width={400}
+              height={400}
+              className="mt-10 w-full max-w-xs md:max-w-sm lg:max-w-md"
+            />
+          </Suspense>
         </div>
       </div>
     </div>

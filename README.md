@@ -25,6 +25,8 @@ This boilerplate reflects a high standard of software development practices, ens
 - **Commitizen**: Conventional commit messages.
 - **Vitest**: Unit testing framework.
 - **Next-Intl**: for easy Internalization.
+- **GlassMorphism**: css glass classes smoked and clear.
+- **Lazy-Load and Suspense**: for a better user experience.
 
 ### Commit Message Format
 
