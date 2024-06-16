@@ -32,6 +32,8 @@ const ContactFormLanding: React.FC<ContactFormLandingProps> = ({
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    // Handle form submission logic here
+    // console.log('Form submitted:', formData);
   };
 
   const renderBackground = () => {
@@ -147,6 +149,7 @@ const ContactFormLanding: React.FC<ContactFormLandingProps> = ({
                     value={formData.name}
                     onChange={handleChange}
                     className="w-full rounded border px-3 py-2 leading-tight text-gray-700 shadow focus:outline-none focus:ring-2 focus:ring-[#9370DB] dark:text-white"
+                    aria-label={t('name')}
                     required
                   />
                 </div>
@@ -164,6 +167,7 @@ const ContactFormLanding: React.FC<ContactFormLandingProps> = ({
                     value={formData.email}
                     onChange={handleChange}
                     className="w-full rounded border px-3 py-2 leading-tight text-gray-700 shadow focus:outline-none focus:ring-2 focus:ring-[#9370DB] dark:text-white"
+                    aria-label={t('email')}
                     required
                   />
                 </div>
@@ -181,6 +185,7 @@ const ContactFormLanding: React.FC<ContactFormLandingProps> = ({
                     onChange={handleChange}
                     rows={10} // Adjust the number of rows as needed
                     className="w-full rounded border px-3 py-2 leading-tight text-gray-700 shadow focus:outline-none focus:ring-2 focus:ring-[#9370DB] dark:text-white"
+                    aria-label={t('message')}
                     required
                   />
                 </div>
