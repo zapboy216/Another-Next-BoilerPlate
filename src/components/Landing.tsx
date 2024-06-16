@@ -6,7 +6,7 @@ import React, { lazy, Suspense } from 'react';
 import Loader from '@/app/Loader';
 
 interface LandingProps {
-  translationsKey: string;
+  translationsKey: keyof IntlMessages;
 }
 
 const LazyImage = lazy(() => import('next/image'));

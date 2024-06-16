@@ -6,7 +6,7 @@ import React, { lazy, Suspense, useState } from 'react';
 import Loader from '@/app/Loader';
 
 interface ContactFormLandingProps {
-  translationsKey: string;
+  translationsKey: keyof IntlMessages;
 }
 const LazyImage = lazy(() => import('next/image'));
 const ContactFormLanding: React.FC<ContactFormLandingProps> = ({
@@ -33,7 +33,7 @@ const ContactFormLanding: React.FC<ContactFormLandingProps> = ({
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // Handle form submission logic here
-    console.log('Form submitted:', formData);
+    // console.log('Form submitted:', formData);
   };
 
   const renderBackground = () => {
@@ -67,7 +67,7 @@ const ContactFormLanding: React.FC<ContactFormLandingProps> = ({
   };
 
   return (
-    <div className="font-montserrat relative min-h-screen w-full overflow-auto">
+    <div className="relative min-h-screen w-full overflow-auto">
       {/* Background */}
       {renderBackground()}
 
@@ -148,7 +148,7 @@ const ContactFormLanding: React.FC<ContactFormLandingProps> = ({
                     id="name"
                     value={formData.name}
                     onChange={handleChange}
-                    className="focus:shadow-outline w-full rounded border px-3 py-2 leading-tight text-gray-700 shadow focus:outline-none"
+                    className="w-full rounded border px-3 py-2 leading-tight text-gray-700 shadow focus:outline-none focus:ring-2 focus:ring-[#9370DB] dark:text-white"
                     required
                   />
                 </div>
@@ -165,7 +165,7 @@ const ContactFormLanding: React.FC<ContactFormLandingProps> = ({
                     id="email"
                     value={formData.email}
                     onChange={handleChange}
-                    className="focus:shadow-outline w-full rounded border px-3 py-2 leading-tight text-gray-700 shadow focus:outline-none"
+                    className="w-full rounded border px-3 py-2 leading-tight text-gray-700 shadow focus:outline-none focus:ring-2 focus:ring-[#9370DB] dark:text-white"
                     required
                   />
                 </div>
@@ -181,14 +181,15 @@ const ContactFormLanding: React.FC<ContactFormLandingProps> = ({
                     id="message"
                     value={formData.message}
                     onChange={handleChange}
-                    className="focus:shadow-outline w-full rounded border px-3 py-2 leading-tight text-gray-700 shadow focus:outline-none"
+                    rows={10} // Adjust the number of rows as needed
+                    className="w-full rounded border px-3 py-2 leading-tight text-gray-700 shadow focus:outline-none focus:ring-2 focus:ring-[#9370DB] dark:text-white"
                     required
                   />
                 </div>
                 <div className="mb-4">
                   <button
                     type="submit"
-                    className="animate-fade-in-down focus:shadow-outline w-full rounded bg-blue-500 px-4 py-2 font-bold text-white hover:bg-blue-700 focus:outline-none"
+                    className="animate-fade-in-down w-full rounded bg-blue-500 px-4 py-2 font-bold text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-[#8258FA]"
                   >
                     {t('submit')}
                   </button>

@@ -6,7 +6,6 @@ import { AppConfig } from './utils/AppConfig';
 
 const intlMiddleware = createMiddleware({
   locales: AppConfig.locales,
-  localePrefix: AppConfig.localePrefix,
   defaultLocale: AppConfig.defaultLocale,
 });
 
