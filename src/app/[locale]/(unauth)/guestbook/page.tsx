@@ -64,7 +64,7 @@ const Guestbook = () => {
           </div>
           {/* End Glass Panel */}
         </div>
-        <div className="mt-8 flex-1 md:ml-8 md:mt-0">
+        <div className="mt-6 flex-1 md:ml-8 md:mt-0">
           <Suspense fallback={<Loader />}>
             <LazyImage
               src={t('hero_image_url')}
