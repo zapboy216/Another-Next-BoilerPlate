@@ -13,7 +13,10 @@ const GuestbookList = async () => {
   return (
     <div className="mt-5" data-testid="guestbook-list">
       {guestbook.map((elt) => (
-        <div key={elt.id} className="mb-1 flex items-center gap-x-1">
+        <div
+          key={elt.id}
+          className="mb-4 flex items-center gap-x-4 rounded-lg bg-white bg-opacity-20 p-4 text-white shadow-lg backdrop-blur-md"
+        >
           <DeleteGuestbookEntry id={elt.id} />
 
           <EditableGuestbookEntry

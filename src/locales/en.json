@@ -336,12 +336,14 @@
   "Guestbook": {
     "meta_title": "Guestbook",
     "meta_description": "An example of CRUD operation",
-    "database_powered_by": "Dinan Database powered by",
-    "loading_guestbook": "Loading guestbook..."
+    "database_powered_by": "This Database powered by",
+    "loading_guestbook": "Loading guestbook...",
+    "backgroundImageUrl": "https://via.placeholder.com/1920x1080",
+    "hero_image_url": "https://via.placeholder.com/600x400"
   },
   "GuestbookForm": {
-    "username": "Username",
-    "body": "Body",
+    "username": "Name",
+    "body": "Post",
     "save": "Save"
   }
 }

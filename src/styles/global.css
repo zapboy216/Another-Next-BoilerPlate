@@ -156,7 +156,7 @@
 }
 
 .smoked-panel:hover {
-  transform: scale(1.07);
+  transform: scale(1.01);
   background-color: rgba(0, 0, 0, 0.8);
 }
 
@@ -208,4 +208,23 @@
   .menu-item {
     margin-bottom: 10px;
   }
+}
+.text-white {
+  color: white;
+}
+
+.text-gray-300 {
+  color: #d1d5db;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+.text-white:hover {
+  color: #e5e7eb;
 }

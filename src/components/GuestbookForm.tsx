@@ -63,16 +63,16 @@ const GuestbookForm = (props: IGuestbookFormProps) => {
     <form onSubmit={handleCreate} className="space-y-4">
       <div>
         <label
-          className="mb-1 block font-medium text-gray-700 dark:text-gray-300"
+          className="mb-1 block font-medium text-white dark:text-white"
           htmlFor={`username${props.edit ? `-${props.id}` : ''}`}
         >
           {t('username')}
-          <input
-            id={`username${props.edit ? `-${props.id}` : ''}`}
-            className="w-full rounded-lg px-4 py-3 shadow-md focus:border-transparent focus:outline-none focus:ring-2 focus:ring-[#9370DB]"
-            {...register('username')}
-          />
         </label>
+        <input
+          id={`username${props.edit ? `-${props.id}` : ''}`}
+          className="w-full rounded-lg px-4 py-3 text-black shadow-md focus:border-transparent focus:outline-none focus:ring-2 focus:ring-[#9370DB] dark:text-white"
+          {...register('username')}
+        />
         {errors.username?.message && (
           <div className="my-2 text-xs italic text-red-500">
             {errors.username?.message}
@@ -82,16 +82,17 @@ const GuestbookForm = (props: IGuestbookFormProps) => {
 
       <div>
         <label
-          className="mb-1 block font-medium text-gray-700 dark:text-gray-300"
+          className="mb-1 block font-medium text-white dark:text-white"
           htmlFor={`body${props.edit ? `-${props.id}` : ''}`}
         >
           {t('body')}
-          <input
-            id={`body${props.edit ? `-${props.id}` : ''}`}
-            className="w-full rounded-lg px-4 py-3 shadow-md focus:border-transparent focus:outline-none focus:ring-2 focus:ring-[#9370DB]"
-            {...register('body')}
-          />
         </label>
+        <textarea
+          id={`body${props.edit ? `-${props.id}` : ''}`}
+          rows={10}
+          className="w-full rounded-lg px-4 py-3 text-black shadow-md focus:border-transparent focus:outline-none focus:ring-2 focus:ring-[#9370DB] dark:text-white"
+          {...register('body')}
+        />
         {errors.body?.message && (
           <div className="my-2 text-xs italic text-red-500">
             {errors.body?.message}

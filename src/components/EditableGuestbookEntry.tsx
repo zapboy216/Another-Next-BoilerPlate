@@ -24,9 +24,8 @@ const EditableGuestbookEntry = (props: {
       <button
         type="button"
         aria-label="edit"
-        onClick={() => {
-          handleEdit();
-        }}
+        onClick={handleEdit}
+        className="text-white hover:text-gray-300"
       >
         <svg
           className="size-6 stroke-current"
@@ -53,8 +52,8 @@ const EditableGuestbookEntry = (props: {
           />
         ) : (
           <>
-            <span className="text-gray-500">{props.username}:</span>{' '}
-            <span className="text-gray-800">{props.body}</span>
+            <span className="font-bold text-white">{props.username}:</span>{' '}
+            <span className="text-gray-300">{props.body}</span>
           </>
         )}
       </div>
