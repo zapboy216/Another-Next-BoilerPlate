@@ -3,7 +3,7 @@
 import { useTranslations } from 'next-intl';
 import React, { lazy, Suspense, useState } from 'react';
 
-import Loader from '@/app/Loader';
+import LoadingSkeleton from '@/components/LoadingSkeleton';
 
 interface ContactFormLandingProps {
   translationsKey: keyof IntlMessages;
@@ -54,7 +54,7 @@ const ContactFormLanding: React.FC<ContactFormLandingProps> = ({
       );
     }
     return (
-      <Suspense fallback={<Loader />}>
+      <Suspense fallback={<LoadingSkeleton className="size-full" />}>
         <LazyImage
           className="absolute left-0 top-0 size-full object-cover"
           src={t('backgroundImageUrl')}
@@ -163,7 +163,7 @@ const ContactFormLanding: React.FC<ContactFormLandingProps> = ({
           {/* End Glass Panel */}
         </div>
         <div className="mt-10 flex-1 md:ml-8 md:mt-0">
-          <Suspense fallback={<Loader />}>
+          <Suspense fallback={<LoadingSkeleton className="size-full" />}>
             <LazyImage
               src={t('hero_image_url')}
               alt="Hero"

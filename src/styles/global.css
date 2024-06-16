@@ -228,3 +228,31 @@
 .text-white:hover {
   color: #e5e7eb;
 }
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.animate-pulse {
+  animation: pulse 1.5s infinite;
+}
+
+.bg-gray-200 {
+  background-color: #e5e7eb;
+}
+
+.dark .bg-gray-200 {
+  background-color: #374151;
+}
+
+.bg-gray-700 {
+  background-color: #374151;
+}
+
+.dark .bg-gray-700 {
+  background-color: #e5e7eb;
+}

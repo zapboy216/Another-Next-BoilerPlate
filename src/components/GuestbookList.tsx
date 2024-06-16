@@ -15,7 +15,7 @@ const GuestbookList = async () => {
       {guestbook.map((elt) => (
         <div
           key={elt.id}
-          className="mb-4 flex items-center gap-x-4 rounded-lg bg-white bg-opacity-20 p-4 text-white shadow-lg backdrop-blur-md"
+          className="mb-4 flex items-center gap-x-4 rounded-lg bg-white/20 p-4 text-white shadow-lg backdrop-blur-md"
         >
           <DeleteGuestbookEntry id={elt.id} />
 

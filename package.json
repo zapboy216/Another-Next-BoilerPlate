@@ -36,8 +36,10 @@
     "@radix-ui/react-slot": "^1.0.2",
     "@t3-oss/env-nextjs": "^0.9.2",
     "aos": "^2.3.4",
-    "checkly": "^4.6.3",
+    "checkly": "^4.5.2",
     "class-variance-authority": "^0.7.0",
+    "classnames": "^2.5.1",
+    "clsx": "^2.1.1",
     "drizzle-orm": "^0.30.7",
     "framer-motion": "^11.1.7",
     "lucide-react": "^0.376.0",
@@ -54,6 +56,7 @@
     "sharp": "^0.33.3",
     "tailwind-merge": "^2.3.0",
     "tailwindcss-animate": "^1.0.7",
+    "uuid": "^10.0.0",
     "zod": "^3.22.4"
   },
   "devDependencies": {
@@ -120,7 +123,7 @@
     "rimraf": "^5.0.5",
     "semantic-release": "^23.0.7",
     "start-server-and-test": "^2.0.3",
-    "storybook": "^7.6.17",
+    "storybook": "^8.1.9",
     "tailwindcss": "^3.4.3",
     "tsx": "^4.7.2",
     "typescript": "^5.4.4"
