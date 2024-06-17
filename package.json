@@ -1,7 +1,6 @@
 {
-  "name": "another-vercel-next-boilerplate",
+  "name": "another-next-boilerplate",
   "version": "1.0.0",
-  "author": "dinan-dev",
   "scripts": {
     "dev:next": "next dev",
     "dev": "run-p dev:*",
