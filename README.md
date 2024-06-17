@@ -1,10 +1,8 @@
-# Vercel Next Dinan Boilerplate
+# Just Another Next Boilerplate
 
 ## Overview
 
-The Vercel Next Dinan Boilerplate is a comprehensive starting point for developing personal and commercial applications with Next.js, TypeScript, and Tailwind CSS. It includes advanced tools and libraries to streamline the development process, enhance code quality, and ensure a professional developer experience. shout out to ixartz for his next.js boilerplate which inspired this project.
-
-This boilerplate reflects a high standard of software development practices, ensuring a scalable, maintainable, and high-performance application. The author has meticulously selected and integrated each tool and library to optimize the developer experience and code quality.
+This Boilerplate is a comprehensive starting point for developing personal and commercial applications with Next.js, TypeScript, and Tailwind CSS. It includes advanced tools and libraries to streamline the development process, enhance code quality, and ensure a professional developer experience.
 
 ## Features  
 
@@ -37,16 +35,13 @@ npm run commit
 ```
 One of the benefits of using Conventional Commits is that it allows us to automatically generate a `CHANGELOG` file. It also allows us to automatically determine the next version number based on the types of commits that are included in a release.
 
-### Requirements
-
-- Node.js 20+ and npm
 
 ### Installation
 
 - **Clone the repository and install dependencies**:
 
 ```shell
-git clone https://github.com/zapboy216/Vercel-Next-Dinan-Boilerplate.git
+git clone https://github.com/zapboy216/Another-Next-Boilerplate.git
 cd my-project-name
 npm install
 ```
@@ -60,7 +55,7 @@ Open http://localhost:3000 with your favorite browser to see your project.
 
 ### Set up authentication
 
-Create a Clerk account at Clerk.com and create a new application in Clerk Dashboard. Then, copy `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY` and `CLERK_SECRET_KEY` into `.env.local` file (not tracked by Git):
+Create a Clerk account at Clerk.com and create a new application in Clerk Dashboard. Then, copy `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY` and `CLERK_SECRET_KEY` into `.env.local` 
 
 ```shell
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_pub_key
@@ -71,7 +66,7 @@ Now, you have a fully working authentication system with Next.js: Sign up, Sign 
 
 ### Set up remote database
 
-The project uses DrizzleORM, a type-safe ORM compatible with SQLite, PostgreSQL, and MySQL databases. By default, the project is set up to work seamlessly with libSQL, and for production purposes, it's integrated with Turso. The Boilerplate also enables a smooth transition to an alternative database provider if your project requires it.
+The project uses DrizzleORM, a type-safe ORM compatible with SQLite, PostgreSQL, and MySQL databases. By default, the project is set up to work seamlessly with libSQL, and for production purposes, it's integrated with Turso.
 
 First, you need to create a Turso account at Turso.tech and install the Turso CLI:
 
@@ -258,6 +253,8 @@ npm run db:studio
 ```
 
 Then, you can open https://local.drizzle.studio with your favorite browser to explore your database.
+
+This boilerplate reflects a high standard of software development practices, ensuring a scalable, maintainable, and high-performance application. The author has meticulously selected and integrated each tool and library to optimize the developer experience and code quality.
 
 
 ## Licensed under the MIT License, Copyright © 2024
